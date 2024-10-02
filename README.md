@@ -9,11 +9,13 @@
   Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted on <a href="https://aws.amazon.com" target="_blank">AWS</a>
 </p>
 
-## 🚨 Forking this repo
+## 🚨 Repo source
 
-Yes, you can fork this repo. Please give proper credit to Brittany Chiang for her awesome work building the original website by linking back to [brittanychiang.com](https://brittanychiang.com). Please link back to [lambertchu.com](https://lambertchu.com) as well. Thanks!
+Forked from my older brother's website, [lambertchu.com](https://lambertchu.com). Brittany Chiang's website provided the basis for my brother's original website, and Chiang's work is [linked back here via brittanychiang.com](https://brittanychiang.com). As per my brother's request link back to these two websites, thanks!
 
 ## 🛠 Installation & Set Up
+
+### NOTE: This set-up is dated and may not work. You may need to switch nvm version _before_ installing `gatsby-cli` as issues may arise if you are not on the correct nvm version for installation.
 
 1. Install the Gatsby CLI
 
