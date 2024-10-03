@@ -61,7 +61,7 @@ const Hero = () => {
   }, []);
 
   const one = <h2 className="big-heading">Eric Chu</h2>;
-  const two = <h1>Thanks for checking out my website, hope you enjoy it!</h1>;
+  const two = <h1>Thanks for checking out my website, hope you like it!</h1>;
   // const three = <h3 className="big-heading">Working in the metaverse.</h3>; // TODO (Optional): Replace with cooler header
   const four = (
     <StyledPic>
