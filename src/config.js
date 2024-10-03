@@ -30,8 +30,13 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Blog',
-      url: '/blog',
+      name: 'Analytics',
+      url: '/analytics',
+    },
+    {
+      //todo: create url
+      name: 'Opinions',
+      url: '/opinions',
     },
     {
       name: 'Projects',

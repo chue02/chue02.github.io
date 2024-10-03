@@ -147,13 +147,16 @@ const BlogPage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Blog" />
+      <Helmet title="Opinions" />
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-heading">Blog</h1>
+          <h1 className="big-heading">My Opinons</h1>
           <h3 className="subtitle">
-            <p>How I think about things.</p>
+            <p>
+              Here you'll find my thoughts on movies, TV shows, sports, music, fitness, and
+              everything else I find interesting!
+            </p>
           </h3>
         </header>
 
@@ -210,7 +213,7 @@ export default BlogPage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/posts/" }, frontmatter: { draft: { ne: true } } }
+      filter: { fileAbsolutePath: { regex: "/opinions/" }, frontmatter: { draft: { ne: true } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

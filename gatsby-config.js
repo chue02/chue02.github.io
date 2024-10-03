@@ -6,7 +6,6 @@ module.exports = {
     description: 'Eric Chu: Get to Know Me More!',
     siteUrl: 'https://chue02.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@LambertChu_',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
