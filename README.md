@@ -15,7 +15,11 @@ Forked from my older brother's website, [lambertchu.com](https://lambertchu.com)
 
 ## 🛠 Installation & Set Up
 
-### NOTE: This set-up is dated and may not work. You may need to switch nvm version _before_ installing `gatsby-cli` as issues may arise if you are not on the correct nvm version for installation.
+### NOTE: This set-up is dated and may not work.
+
+You may need to switch nvm version _before_ installing `gatsby-cli` as issues may arise if you are not on the correct nvm version for installation. In essence, you may need to swaps steps 1 and 2.
+
+Also if you're wondering why there's an `index.html` file, it's because GitHub Pages requires it as an entry point. The sole purpose of that file is to load the corresponding `index.js` file.
 
 1. Install the Gatsby CLI
 
