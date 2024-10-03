@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Lambert Chu',
-    description: 'Lambert Chu: Tech, Startups, Crypto, Sports',
-    siteUrl: 'https://lambertchu.com', // No trailing slash allowed!
+    title: 'Eric Chu',
+    description: 'Eric Chu: Get to Know Me More!',
+    siteUrl: 'https://chue02.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@LambertChu_',
   },
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'LambertChu',
-        short_name: 'LambertChu',
+        name: 'EricChu',
+        short_name: 'EricChu',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

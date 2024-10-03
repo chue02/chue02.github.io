@@ -1,25 +1,25 @@
 <h2 align="center">
-  <a href="https://lambertchu.com" target="_blank"> Lambert Chu's Personal Website</a>
+  <a href="https://chue02.github.io/" target="_blank"> Eric Chu's Personal Website</a>
 </h2>
 <h2 align="center">
    (Fork of <a href="https://brittanychiang.com" target="_blank"> brittanychiang.com - v4)</a>
 </h2>
 
 <p align="center">
-  Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted on <a href="https://aws.amazon.com" target="_blank">AWS</a>
+  Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
 </p>
 
 ## 🚨 Repo source
 
-Forked from my older brother's website, [lambertchu.com](https://lambertchu.com). Brittany Chiang's website provided the basis for my brother's original website, and Chiang's work is [linked back here via brittanychiang.com](https://brittanychiang.com). As per my brother's request link back to these two websites, thanks!
+Forked from my older brother's repo, [lambertchu.com](https://lambertchu.com), which was forked from [brittanychiang.com](https://brittanychiang.com). As per my brother's request, if you fork off this repo please link back his and Brittany Chiang's websites. Thanks!
 
 ## 🛠 Installation & Set Up
 
-### NOTE: This set-up is dated and may not work.
+### NOTE: This set-up is dated and may need to be modified.
 
-You may need to switch nvm version _before_ installing `gatsby-cli` as issues may arise if you are not on the correct nvm version for installation. In essence, you may need to swaps steps 1 and 2.
+You may need to switch nvm version 16 _before_ installing `gatsby-cli` as issues may arise if you are not on the correct nvm version for installation. In essence, you may need to swaps steps 1 and 2.
 
-Also if you're wondering why there's an `index.html` file, it's because GitHub Pages requires it as an entry point. The sole purpose of that file is to load the corresponding `index.js` file.
+Also if you're wondering why there's an `index.html` file, it's because GitHub Pages requires it as an entry point. Its sole purpose of is to load the corresponding `index.js` file.
 
 1. Install the Gatsby CLI
 

@@ -60,15 +60,15 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h2 className="big-heading">Lambert Chu</h2>;
-  const two = <h1>Welcome to my website!</h1>;
-  // const three = <h3 className="big-heading">Working in the metaverse.</h3>;
+  const one = <h2 className="big-heading">Eric Chu</h2>;
+  const two = <h1>Thanks for checking out my website, hope you enjoy it!</h1>;
+  // const three = <h3 className="big-heading">Working in the metaverse.</h3>; // TODO (Optional): Replace with cooler header
   const four = (
     <StyledPic>
       <div className="wrapper">
         <StaticImage
           className="img"
-          src="../../images/me-beach.jpg"
+          src="../../images/me-getty.JPG" // TODO: Figure out why it's not displaying. Also perhaps replace with better pic?
           width={500}
           quality={100}
           formats={['AUTO', 'WEBP', 'AVIF']}
