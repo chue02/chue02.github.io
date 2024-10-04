@@ -1,11 +1,11 @@
 {
   "name": "personal_website",
-  "description": "Lambert's Personal Website",
-  "version": "1.0.0",
-  "author": "Lambert Chu",
+  "description": "Eric's Personal Website",
+  "version": "1.0.1",
+  "author": "Eric Chu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lambertchu/personal_website"
+    "url": "https://github.com/chue02/chue02.github.io"
   },
   "keywords": [
     "gatsby"
@@ -21,7 +21,7 @@
     "clean": "gatsby clean",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "deploy": "gatsby-plugin-s3 deploy --yes && aws cloudfront create-invalidation --distribution-id {DISTRIBUTION_ID} --paths \"/*\""
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -76,6 +76,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
+    "gh-pages": "^6.1.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "prettier": "^2.2.1"
