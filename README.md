@@ -11,15 +11,13 @@
 
 ## 🚨 Repo source
 
-Forked from my older brother's repo, [lambertchu.com](https://lambertchu.com), which was forked from [brittanychiang.com](https://brittanychiang.com). As per my brother's request, if you fork off this repo please link back his and Brittany Chiang's websites. Thanks!
+Forked from my older brother's repo, [lambertchu.com](https://lambertchu.com), which was forked from [brittanychiang.com.](https://brittanychiang.com) As per my brother's request, if you fork off this repo please link back his and Brittany Chiang's websites. Thanks!
 
 ## 🛠 Installation & Set Up
 
 ### NOTE: This set-up is dated and may need to be modified.
 
 You may need to switch nvm version 16 _before_ installing `gatsby-cli` as issues may arise if you are not on the correct nvm version for installation. In essence, you may need to swaps steps 1 and 2.
-
-Also if you're wondering why there's an `index.html` file, it's because GitHub Pages requires it as an entry point. Its sole purpose of is to load the corresponding `index.js` file.
 
 1. Install the Gatsby CLI
 
@@ -60,6 +58,45 @@ Also if you're wondering why there's an `index.html` file, it's because GitHub P
    ```sh
    npm run serve
    ```
+
+## 🌐 Deployment on GitHub Pages
+
+The website my brother created is hosted on AWS, however I chose to deploy my website using GitHub Pages. Typically, GitHub Pages wants you to create an `index.html` file as its entry point for deployment. However, you may notice there does not exist such a file in this repo. This is because this website is built on various `.js` files, and creating an `index.html` file to run many `.js` scripts would be convoluted.
+
+[Gatsby provided a tutorial on how to host on GitHub Pages.](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/) This tutorial provides several different instructions depending on how you use GitHub Pages. I followed the instructions regarding **_GitHub Pages subdomain at github.io_** (i.e. `username.github.io`) with these modifications:
+
+1. Installing `gh-pages`
+
+Because we are using an old version of nvm, when you run `npm install gh-pages --save-dev` you may need to add the flag `--legacy-peer-deps` at the end of the command. In other words, if you encounter the error
+
+```sh
+Fix the upstream dependency conflict, or retry this command with --force, or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.
+```
+
+one potential solution is to run:
+
+```sh
+npm install gh-pages --save-dev --legacy-peer-deps
+```
+
+You should not need to switch nvm versions. I do _not_ recommend using the flag `--force` as this many cause other unexpected errors down the road. **If you know a better solution than the one I provided, please let me know in the comment section of this repository!**
+
+2. New branches
+
+You may also notice I have two branches: `main` and `dev`. This is because Gatsby's instructions specify to use one branch strictly for deployment and another branch strictly for development. The instructions used `main` for development and created another branch called `source` for deployment, but I felt it was more intuitive to use `main` for _deployment_ and to create another branch named `dev` for _development_.
+
+If you want to **build** your website for development and testing, switch to the `dev` branch and use the commands:
+
+```sh
+npm run build
+npm run serve
+```
+
+However, if you want to **deploy** your website for publishing, switch to the `main` branch, use the command:
+
+```sh
+npm run serve
+```
 
 ## 🎨 Color Reference
 
