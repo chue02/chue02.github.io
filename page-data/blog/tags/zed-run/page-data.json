@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/blog/tags/zed-run/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"The future of NFTs is here - and it’s on the racetrack","description":"Why ZED RUN will set the standard for NFTs of the future.","date":"2021-06-27T12:00:00.000Z","slug":"/blog/zed-future-nfts","tags":["ZED RUN","NFT"]}}}]}},"pageContext":{"tag":"ZED RUN"}},
+    "staticQueryHashes": ["3236104089","3539500889","604461682"]}

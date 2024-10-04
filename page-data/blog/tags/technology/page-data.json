@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/blog/tags/technology/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"How to simulate your startup idea","description":"How do you start a business from scratch?","date":"2020-06-28T12:00:00.000Z","slug":"/blog/how-to-simulate-startup-idea","tags":["Startups","Technology"]}}}]}},"pageContext":{"tag":"Technology"}},
+    "staticQueryHashes": ["3236104089","3539500889","604461682"]}
