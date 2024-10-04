@@ -83,7 +83,7 @@ You should not need to switch nvm versions. I do _not_ recommend using the flag 
 
 2. New branches
 
-You may also notice I have two branches: `main` and `dev`. This is because Gatsby's instructions specify to use one branch strictly for deployment and another branch strictly for development. The instructions used `main` for development and created another branch called `source` for deployment, but I felt it was more intuitive to use `main` for _deployment_ and to create another branch named `dev` for _development_.
+You may also notice I have two branches: `main` and `dev`. This is because Gatsby's instructions specify to use one branch strictly for deployment and another branch strictly for development. The instructions used `main` for deployment and created another branch called `source` for development, but I felt it was more intuitive to name the development branch `dev` instead of `source`. The insturctions also specified to set your development branch as the default branch, hence why the default branch is `dev` and not `main`.
 
 If you want to **build** your website for development and testing, switch to the `dev` branch and use the commands:
 
