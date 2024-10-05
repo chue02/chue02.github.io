@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { StaticQuery, graphql } from 'gatsby';
 import { Icon } from '@components/icons';
 
 const categoryColors = {
@@ -119,48 +120,72 @@ const StyledTableContainer = styled.table`
   }
 `;
 
-const CoursesTable = ({ data }) => {
+const CoursesTable = () => {
   const revealCourses = useRef([]);
 
   return (
-    <StyledTableContainer>
-      <thead>
-        <tr>
-          <th>Subject</th>
-          <th>Number</th>
-          <th>Name</th>
-          <th>Term</th>
-          <th>Link</th>
-        </tr>
-      </thead>
+    <StaticQuery
+      query={graphql`
+        query {
+          allMarkdownRemark(
+            filter: { fileAbsolutePath: { regex: "/courses/" } }
+            sort: { fields: [frontmatter___date], order: DESC }
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  subject
+                  no
+                  name
+                  term
+                  external
+                }
+              }
+            }
+          }
+        }
+      `}
+      render={data => {
+        const courses = data.allMarkdownRemark.edges;
 
-      <tbody>
-        {data.map(({ node }, index) => {
-          const { subject, no, name, term, external } = node.frontmatter;
-          return (
-            <tr key={index} ref={el => (revealCourses.current[index] = el)}>
-              <td style={categoryColors[subject] || { fontWeight: 'bold' }}>{subject}</td>
+        return (
+          <StyledTableContainer>
+            <thead>
+              <tr>
+                <th>Subject</th>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Term</th>
+                <th>Link</th>
+              </tr>
+            </thead>
 
-              <td className="no">{no}</td>
-
-              <td className="name">{name}</td>
-
-              <td className="term">{term}</td>
-
-              <td className="links">
-                <div>
-                  {external && (
-                    <a href={external} aria-label="External Link">
-                      <Icon name="External" />
-                    </a>
-                  )}
-                </div>
-              </td>
-            </tr>
-          );
-        })}
-      </tbody>
-    </StyledTableContainer>
+            <tbody>
+              {courses.map(({ node }, index) => {
+                const { subject, no, name, term, external } = node.frontmatter;
+                return (
+                  <tr key={index} ref={el => (revealCourses.current[index] = el)}>
+                    <td style={categoryColors[subject] || { fontWeight: 'bold' }}>{subject}</td>
+                    <td className="no">{no}</td>
+                    <td className="name">{name}</td>
+                    <td className="term">{term}</td>
+                    <td className="links">
+                      <div>
+                        {external && (
+                          <a href={external} aria-label="External Link">
+                            <Icon name="External" />
+                          </a>
+                        )}
+                      </div>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </StyledTableContainer>
+        );
+      }}
+    />
   );
 };
 

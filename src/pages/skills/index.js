@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { Layout } from '@components';
 import Skillset from './skillset';
-import { graphql } from 'gatsby';
 import CoursesTable from './courses';
 
 const StyledMainContainer = styled.main`
@@ -29,30 +28,26 @@ const StyledMainContainer = styled.main`
   }
 `;
 
-const SkillPage = ({ location, data }) => {
-  const courses = data.allMarkdownRemark.edges;
+const SkillPage = ({ location }) => (
+  <Layout location={location}>
+    <Helmet title="Skills" />
 
-  return (
-    <Layout location={location}>
-      <Helmet title="Skills" />
-
-      <StyledMainContainer>
-        <header>
-          <h1 className="big-heading">Skills and Courses</h1>
-          <h3 className="subtitle">
-            <p>
+    <StyledMainContainer>
+      <header>
+        <h1 className="big-heading">Skills and Courses</h1>
+        <h3 className="subtitle">
+          <p>
               This page contains detalied lists of my skills and the courses I've taken at UCLA!
-            </p>
-          </h3>
-        </header>
+          </p>
+        </h3>
+      </header>
 
-        <Skillset />
+      <Skillset />
 
-        <CoursesTable data={courses} />
-      </StyledMainContainer>
-    </Layout>
-  );
-};
+      <CoursesTable />
+    </StyledMainContainer>
+  </Layout>
+);
 
 SkillPage.propTypes = {
   location: PropTypes.object.isRequired,
@@ -60,25 +55,3 @@ SkillPage.propTypes = {
 };
 
 export default SkillPage;
-
-export const pageQuery = graphql`
-  {
-    allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/courses/" } }
-      sort: { fields: [frontmatter___subject], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            subject
-            no
-            name
-            term
-            external
-          }
-          html
-        }
-      }
-    }
-  }
-`;
