@@ -20,8 +20,9 @@
 
 # Content
 
-- [ ] Remove content in folders (i.e. jobs/posts/projects)
-- [ ] Add another directory for new blog section I plan on adding
+- [x] Remove content in folders (i.e. jobs/posts/projects)
+- [x] Add another directory for new blog section I plan on adding
+  - **Note:** If you add/modify/delete a new page that requires you to add to the `/content/type` directory, make sure you specify it in the `gatsby-config.js` file.
 
 # Src
 

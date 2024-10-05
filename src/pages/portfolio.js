@@ -9,6 +9,12 @@ import { Layout } from '@components';
 import { Icon } from '@components/icons';
 import { usePrefersReducedMotion } from '@hooks';
 
+const categoryColors = {
+  Sports: { color: '#32a838', fontWeight: 'bold' },
+  Coding: { color: '#328da8', fontWeight: 'bold' },
+  Film: { color: '#a33441', fontWeight: 'bold' },
+};
+
 const StyledTableContainer = styled.div`
   header {
     margin-bottom: 100px;
@@ -80,6 +86,14 @@ const StyledTableContainer = styled.div`
         font-weight: 600;
         line-height: 1.25;
       }
+      &.category {
+        padding-top: 15px;
+        padding-right: 20px;
+        color: var(--lightest-slate);
+        font-size: var(--fz-xl);
+        font-weight: 600;
+        line-height: 1.25;
+      }
       &.company {
         font-size: var(--fz-lg);
         white-space: nowrap;
@@ -132,19 +146,22 @@ const ArchivePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Projects" />
+      <Helmet title="Portfolio" />
 
       <main>
         <StyledTableContainer ref={revealTable}>
           <header ref={revealTitle}>
-            <h1 className="big-heading">Projects</h1>
-            <p className="subtitle">What I've worked on.</p>
+            <h1 className="big-heading">Portfolio</h1>
+            <p className="subtitle">
+              My collection of coding projects, sports analytics articles, short films, and more.
+            </p>
           </header>
 
           <table>
             <thead>
               <tr>
                 <th>Date</th>
+                <th>Category</th>
                 <th>Description</th>
                 <th>Link</th>
               </tr>
@@ -152,10 +169,12 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const { date, external, title } = node.frontmatter;
+                  const { date, category, external, title } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).toLocaleDateString()}`}</td>
+
+                      <td style={categoryColors[category] || { fontWeight: 'bold' }}>{category}</td>
 
                       <td className="title">{title}</td>
 
@@ -188,13 +207,14 @@ export default ArchivePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/projects/" } }
+      filter: { fileAbsolutePath: { regex: "/portfolio/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
           frontmatter {
             date
+            category
             title
             external
           }

@@ -4,11 +4,11 @@ module.exports = {
   socialMedia: [
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/ericchu24',
+      url: 'https://www.linkedin.com/in/eric-chu02',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/eric_chu02/',
+      url: 'https://www.instagram.com/eric.chu02/',
     },
     {
       name: 'GitHub',
@@ -35,8 +35,8 @@ module.exports = {
       url: '/opinions',
     },
     {
-      name: 'Projects',
-      url: '/projects',
+      name: 'Portfolio',
+      url: '/portfolio',
     },
     {
       name: 'Contact',

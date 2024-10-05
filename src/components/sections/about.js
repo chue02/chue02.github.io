@@ -107,9 +107,9 @@ const About = () => {
             </p>
 
             <p>
-              Other than analytics, some of my passions are cinema, rock music, biking, fitness, and
-              coffee brewing. I often go on lengthy discussions with my friends about these
-              subjects, such as reviewing the latest movie I saw or sharing my progress in my
+              Other than analytics, some of my passions are cinema, rock music, photography, biking,
+              fitness, and coffee brewing. I often go on lengthy discussions with my friends about
+              these subjects, such as reviewing the latest movie I saw or sharing my progress in my
               fitness journey. Why not publish my opinions somewhere so my friends can access them
               on their own demand and with nicely structured presenteation?
             </p>
