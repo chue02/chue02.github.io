@@ -98,12 +98,11 @@ const About = () => {
             </p>
 
             <p>
-              Right now I am wrapping up my final academic term at UCLA. After graduation my goal is
-              to pursue a career involving the skills I've learned. I'm currently interested in jobs
-              using data analysis, as I am drawn by its potential to solve problems and answer
-              questions. For instance, I want to use football statistics (go Giants!) to discover
-              new tactics and to resolve ambiguities I've encountered when watching the sport. I'd
-              like to provide quantifiable insight to intriguing hypotheses.
+              Right now I am wrapping up my final academic term at UCLA. After graduation, my goal
+              is to pursue a career that intersects my skillset with my interests. I'm currently
+              partial to jobs involving data analysis, particularly ones related to football
+              statistics (go Giants), as I am drawn by the potential to use data to solve problems,
+              answer questions, and discover new strategies within the sport.
             </p>
 
             <p>
@@ -118,12 +117,12 @@ const About = () => {
             <p>
               In addition to providing background information about myself, I'm hoping this website
               can showcase the two sides of my brain. The findings my &quot;left brain&quot; (i.e.
-              the analytical and technical side) discovers will be posted on blogs in the{' '}
-              <b>Analytics</b> category. The <b>Opinions</b> category will consist of blogs about
-              topics my &quot;right brain&quot; (or the creative side) finds intriguing.
+              the technical side) discovers will be posted as blogs in the <b>Analytics</b>{' '}
+              category. The <b>Opinions</b> category will consist of blogs about topics my
+              &quot;right brain&quot; (or the creative side) finds intriguing.
             </p>
 
-            <p>Thanks for reading and I hope you enjoy my content here!</p>
+            <p>Thanks for reading, I hope you enjoy my content here!</p>
           </div>
         </StyledText>
 

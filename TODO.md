@@ -9,6 +9,8 @@
   - [ ] Create test blogs to see if it works
   - [ ] Create another category for football weekly updates?
 - [x] Remove license
+- [ ] Protfolio vs projects have different constant names and file names
+  - [ ] Same with analytics/opinions and blogs
 
 # Content
 
@@ -30,12 +32,25 @@
 
 ### Courses
 
-- [ ] Add courses page
-  - [ ] Should I use the same structure as the "jobs" section with this?
-- [ ] Divide courses by subject? One list of courses per subject
-  - [ ] List per courses taken in math, CS/stats, and film?
+- [x] Add courses page
+  - Should I use the same structure as the "jobs" section with this?
+    - Or use same format as entries in "Projects" (or "Portfolio") section?
+    - Using projects entries would allow me to link course page as well as use one `.md` file instead of needing a new folder per class
+    - BUT "Jobs" looks cooler and would make website less monotonous
+      - Also allows for more verbose descriptions
+      - Is also more compact
+- [x] Divide courses by subject? One list of courses per subject
+  - [x] List per courses taken in math, CS/stats, and film?
 - [ ] What should I do with skills? Should I make it its own page or add it to the courses page?
-  - [ ] Should I name this page "courses" or "skills"?
+  - [ ] Should I make skills use the format as "work experience" section?
+    - And should I make each type of skills its own chunk?
+    - If I do this, can I even get both of these to be in the same page?
+      - Replicate `src/components/index.js` and/or `src/pages/index.js`
+  - [ ] Should I name this page "courses" or "skills" or both?
+- [ ] Ensure you update:
+  - [x] `src/config.js`
+  - [x] `gatsby-config.js`
+- [x] How can I removed the numbered part?
 
 ### Analytics
 
@@ -57,9 +72,12 @@
 
 - [ ] Fix TODOs there
 - [ ] Update images
-  - [ ] Figure out why my image won't render (Resolution issue)
+  - [ ] Figure out why my image won't render (Resolution issue?)
 - [x] Shorten the section
 - [x] Remove blog previews & projects sections
+- [ ] Add hyperlink when
+  - [ ] I mention skills & courses
+  - [ ] And my two types of blogs
 
 ## Jobs
 

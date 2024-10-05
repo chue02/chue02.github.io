@@ -35,6 +35,10 @@ module.exports = {
       url: '/opinions',
     },
     {
+      name: 'Skills',
+      url: '/skills',
+    },
+    {
       name: 'Portfolio',
       url: '/portfolio',
     },
