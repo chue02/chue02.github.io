@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <div>Copyright: © Lambert Chu</div>
+        {/* <div>Copyright: © Lambert Chu</div> */}
 
         <a href="https://github.com/bchiang7/v4" target="_blank" rel="noreferrer">
           <div>Original design built by Brittany Chiang</div>

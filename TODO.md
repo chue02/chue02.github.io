@@ -8,15 +8,7 @@
   - [x] Add page in header via `src/config.js`
   - [ ] Create test blogs to see if it works
   - [ ] Create another category for football weekly updates?
-- [ ] Add skills and courses sections
-  - [ ] Should I use the same structure as the "jobs" section with this?
-    - [ ] Make it own page rather than a continuation of the About Me
-  - [ ] Divide courses by subject? One list of courses per subject (e.g. math, film, etc?)
-    - [ ] Math section, film section, and CS/Stats section?
-- [ ] Change license
-- [ ] Get rid off Lambert's NFT stuff on right side
-  - [ ] And his Twitter social on the left
-  - [ ] `config.js` To do both?
+- [x] Remove license
 
 # Content
 
@@ -29,11 +21,21 @@
 ## Components
 
 - [ ] Update `social.js`
+  - Add resume?
 - [ ] Update `picture.js` to fix resolution issue
 
 ## Pages
 
 - [ ] Update `index.js` to reflect new changes to website's structure
+
+### Courses
+
+- [ ] Add courses page
+  - [ ] Should I use the same structure as the "jobs" section with this?
+- [ ] Divide courses by subject? One list of courses per subject
+  - [ ] List per courses taken in math, CS/stats, and film?
+- [ ] What should I do with skills? Should I make it its own page or add it to the courses page?
+  - [ ] Should I name this page "courses" or "skills"?
 
 ### Analytics
 
@@ -56,20 +58,21 @@
 - [ ] Fix TODOs there
 - [ ] Update images
   - [ ] Figure out why my image won't render (Resolution issue)
-- [ ] Shorten the section
+- [x] Shorten the section
+- [x] Remove blog previews & projects sections
 
 ## Jobs
 
 - [x] Update "where I've worked" section
-
-## Blogs
-
-- [ ] Figure out how to remove this
+- [x] Figure out why it's not aligned with other sections
+  - Solution: adjust `max-width` in `jobs.js` to be the same as `max-width` in other corresponding seciton `.js` files
+    - This won't break on mobile... right?
 
 ## Projects
 
-- [ ] Rename to "works"
-  - [ ] More appropriate name than projects as things I may put here may include things like publications, coding projects, short films, etc.
+- [x] Rename to "portfolio"
+  - More appropriate name than projects as things I may put here may include things like publications, coding projects, short films, etc.
+- [x] Add categories to each entry in my portfolio
 
 ## Contact
 
