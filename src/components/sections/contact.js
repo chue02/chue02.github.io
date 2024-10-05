@@ -71,7 +71,7 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading">Get In Touch</h2>
 
-      <p>If you'd like to contact me, pick a social media site and slide into my DMs:</p>
+      <p>Here you can find ways to contact me, see my social media, or see my resume!</p>
 
       <br></br>
 
@@ -85,7 +85,7 @@ const Contact = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me-staples.jpg"
+              src="../../images/me-staples.jpg" //TODO: replace this image (football w/ friends image?)
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
@@ -97,7 +97,7 @@ const Contact = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/more-kitties2.png"
+              src="../../images/more-kitties2.png" // TODO: Replace, or say I'm the uncle of these kitties or something
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Cats"

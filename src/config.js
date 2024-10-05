@@ -1,23 +1,20 @@
 module.exports = {
-  email: 'lambertchu.eth',
+  email: 'chue02@ucla.edu',
 
   socialMedia: [
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/LambertChu_',
-    },
-    {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/lambertchu',
+      url: 'https://www.linkedin.com/in/ericchu24',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/lambertchu',
+      url: 'https://www.instagram.com/eric_chu02/',
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/lambertchu',
+      url: 'https://github.com/chue02',
     },
+    // TODO: Figure out how to attach resume
   ],
 
   navLinks: [
@@ -34,7 +31,6 @@ module.exports = {
       url: '/analytics',
     },
     {
-      //todo: create url
       name: 'Opinions',
       url: '/opinions',
     },
