@@ -63,60 +63,6 @@ const StyledTableContainer = styled.table`
         border-bottom-right-radius: var(--border-radius);
       }
     }
-    td {
-      &.year {
-        padding-right: 20px;
-        @media (max-width: 768px) {
-          padding-right: 10px;
-          font-size: var(--fz-sm);
-        }
-      }
-      &.title {
-        padding-top: 15px;
-        padding-right: 20px;
-        color: var(--lightest-slate);
-        font-size: var(--fz-xl);
-        font-weight: 600;
-        line-height: 1.25;
-      }
-      &.category {
-        padding-top: 15px;
-        padding-right: 20px;
-        color: var(--lightest-slate);
-        font-size: var(--fz-xl);
-        font-weight: 600;
-        line-height: 1.25;
-      }
-      &.company {
-        font-size: var(--fz-lg);
-        white-space: nowrap;
-      }
-      &.tech {
-        font-size: var(--fz-xxs);
-        font-family: var(--font-mono);
-        line-height: 1.5;
-        .separator {
-          margin: 0 5px;
-        }
-        span {
-          display: inline-block;
-        }
-      }
-      &.links {
-        min-width: 100px;
-        div {
-          display: flex;
-          align-items: center;
-          a {
-            ${({ theme }) => theme.mixins.flexCenter};
-            flex-shrink: 0;
-          }
-          a + a {
-            margin-left: 10px;
-          }
-        }
-      }
-    }
   }
 `;
 

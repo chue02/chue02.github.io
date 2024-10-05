@@ -71,7 +71,6 @@ const StyledTabList = styled.div`
 `;
 
 const StyledTabButton = styled.button`
-  ${({ theme }) => theme.mixins.link};
   display: flex;
   align-items: center;
   width: 100%;
@@ -89,7 +88,6 @@ const StyledTabButton = styled.button`
     padding: 0 15px 2px;
   }
   @media (max-width: 600px) {
-    ${({ theme }) => theme.mixins.flexCenter};
     min-width: 120px;
     padding: 0 15px;
     border-left: 0;
@@ -144,10 +142,6 @@ const StyledTabPanel = styled.div`
   width: 100%;
   height: auto;
   padding: 10px 5px;
-
-  ul {
-    ${({ theme }) => theme.mixins.fancyList};
-  }
 
   h3 {
     margin-bottom: 2px;
