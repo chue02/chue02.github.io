@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/blog/tags/blogging/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"frontmatter":{"title":"Publish your work, even if you don’t have an audience","description":"What’s the point of having a blog?","date":"2021-06-01T12:00:00.000Z","slug":"/blog/publish-your-work","tags":["Blogging"]}}},{"node":{"frontmatter":{"title":"Why I’m starting a blog","description":"Hello World.","date":"2020-05-28T12:00:00.000Z","slug":"/blog/why-blog","tags":["Blogging"]}}}]}},"pageContext":{"tag":"Blogging"}},
-    "staticQueryHashes": ["3236104089","3539500889","604461682"]}
+    "staticQueryHashes": ["3539500889","604461682"]}

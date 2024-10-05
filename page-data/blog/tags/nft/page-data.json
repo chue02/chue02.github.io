@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/blog/tags/nft/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"frontmatter":{"title":"The future of NFTs is here - and it’s on the racetrack","description":"Why ZED RUN will set the standard for NFTs of the future.","date":"2021-06-27T12:00:00.000Z","slug":"/blog/zed-future-nfts","tags":["ZED RUN","NFT"]}}},{"node":{"frontmatter":{"title":"Why it’s time to invest in NBA Top Shot","description":"Why I believe this could be the future of investing in athletes.","date":"2021-01-25T12:00:00.000Z","slug":"/blog/why-nba-topshot","tags":["NBA","NFT"]}}}]}},"pageContext":{"tag":"NFT"}},
-    "staticQueryHashes": ["3236104089","3539500889","604461682"]}
+    "staticQueryHashes": ["3539500889","604461682"]}
