@@ -157,6 +157,7 @@ const BlogPage = ({ location, data }) => {
               Here you'll find my thoughts on movies, TV shows, sports, music, fitness, and
               everything else I find interesting!
             </p>
+            <p>Coming soon!</p>
           </h3>
         </header>
 

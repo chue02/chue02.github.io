@@ -98,7 +98,7 @@ However, if you want to **deploy** your website for publishing, use the command:
 npm run deploy
 ```
 
-I believe you should run this command in the `dev` brnach, but of course back-up the last version of your code *before* you run this command. That's what GitHub's for, after all!
+You should run this command in the `dev` branch, and when you do it'll automatically merge any changes you made to the `main` branch and deploy the website from there. It's important you ensure you have backed up the last version of the website _before_ you run this command. That's what GitHub's for, after all!
 
 ## 🎨 Color Reference
 

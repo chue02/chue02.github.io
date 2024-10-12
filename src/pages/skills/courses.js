@@ -12,8 +12,8 @@ const categoryColors = {
 
 /*
 const TableContainer = styled.div`
-  overflow-x: auto; // Enables horizontal scrolling on smaller screens 
-`; 
+  overflow-x: auto; // Enables horizontal scrolling on smaller screens
+`;
 */
 
 const StyledTableContainer = styled.table`
@@ -102,7 +102,7 @@ const CoursesTable = () => {
                 <th>Number</th>
                 <th>Name</th>
                 <th>Term</th>
-                <th>Link</th>
+                <th>Registrar</th>
               </tr>
             </thead>
 
