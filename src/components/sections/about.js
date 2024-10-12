@@ -130,7 +130,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me-ramen.png" // TODO: update image
+              src="../../images/beach.png" // TODO: update image
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
@@ -141,7 +141,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/kitties.png"
+              src="../../images/dinnerSF.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

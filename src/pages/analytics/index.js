@@ -147,7 +147,7 @@ const BlogPage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Blog" />
+      <Helmet title="Analytics" />
 
       <StyledMainContainer>
         <header>
@@ -187,7 +187,7 @@ const BlogPage = ({ location, data }) => {
                       <ul className="post__tags">
                         {tags.map((tag, i) => (
                           <li key={i}>
-                            <Link to={`/blog/tags/${kebabCase(tag)}/`} className="inline-link">
+                            <Link to={`/analytics/tags/${kebabCase(tag)}/`} className="inline-link">
                               #{tag}
                             </Link>
                           </li>

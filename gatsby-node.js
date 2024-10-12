@@ -12,10 +12,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const postTemplate = path.resolve(`src/templates/post.js`);
   const tagTemplate = path.resolve('src/templates/tag.js');
 
+  // TODO: will regex reliably work?
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/posts/" } }
+        filter: { fileAbsolutePath: { regex: "/analytics|opinions/" } }
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
       ) {
@@ -55,9 +56,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Extract tag data from query
   const tags = result.data.tagsGroup.group;
   // Make tag pages
+  // TOOD: Find way to create path for opinion tags as well
   tags.forEach(tag => {
     createPage({
-      path: `/blog/tags/${_.kebabCase(tag.fieldValue)}/`,
+      path: `/analytics/tags/${_.kebabCase(tag.fieldValue)}/`,
       component: tagTemplate,
       context: {
         tag: tag.fieldValue,

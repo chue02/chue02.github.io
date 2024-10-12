@@ -10,7 +10,7 @@
   - [ ] Create another category for football weekly updates?
 - [x] Remove license
 - [ ] Protfolio vs projects have different constant names and file names
-  - [ ] Same with analytics/opinions and blogs
+  - [ ] Same with analytics/opinions and blogs -[ ] Figure out how to make tags from opinions posts in `gatsby-node.js`
 
 # Content
 
@@ -19,6 +19,12 @@
   - **Note:** If you add/modify/delete a new page that requires you to add to the `/content/type` directory, make sure you specify it in the `gatsby-config.js` file.
 
 # Src
+
+## templates
+
+- [ ] Fix `posts.js` link that returns to blog pages
+  - [ ] Make it return to corresponding analytics/opinions page instead
+  - [ ] Do same with `tags.js`
 
 ## Components
 
@@ -56,6 +62,7 @@
 
 - [ ] Add quote as subtitle
 - [ ] Create test blog (perhaps old article I've written on GitHub?)
+- [ ] Figure out a way to make table display borders
 
 ### Opinions
 
@@ -97,7 +104,7 @@
 - [x] Remove Twitter link
   - [ ] and maybe Instagram
 - [ ] Add email (?)
-- [ ] Attach resume (not sure if I should do that here though)
+- [x] Attach resume (not sure if I should do that here though) -[ ] Make resume a logo instead of a button
 
 # README.md
 

@@ -68,8 +68,9 @@ const Hero = () => {
       <div className="wrapper">
         <StaticImage
           className="img"
-          src="../../images/me-getty.JPG" // TODO: Figure out why it's not displaying. Also perhaps replace with better pic?
-          width={500}
+          src="../../images/getty.png"
+          width={550}
+          height={350}
           quality={100}
           formats={['AUTO', 'WEBP', 'AVIF']}
           alt="Headshot"

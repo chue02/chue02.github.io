@@ -50,6 +50,7 @@ const StyledPostContent = styled.div`
   }
 `;
 
+// TODO: fix link to "/blog" on line 65
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
   const { title, date, tags } = frontmatter;

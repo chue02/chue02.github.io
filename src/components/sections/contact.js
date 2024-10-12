@@ -6,6 +6,7 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 import { StyledPic } from '../picture';
+import resume from '../../images/resume24.pdf'; // Update year number as you update resume
 
 const StyledContactSection = styled.section`
   max-width: 900px;
@@ -71,7 +72,11 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading">Get In Touch</h2>
 
-      <p>Here you can find ways to contact me, see my social media, or see my resume!</p>
+      <p>Here you can find ways to contact me via my social media!</p>
+
+      <a href={resume} target="_blank" rel="noopener noreferrer">
+        Click here to download my resume!
+      </a>
 
       <br></br>
 
@@ -85,7 +90,7 @@ const Contact = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me-staples.jpg" //TODO: replace this image (football w/ friends image?)
+              src="../../images/bike.png" //TODO: replace this image (football w/ friends image?)
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
@@ -97,7 +102,7 @@ const Contact = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/more-kitties2.png" // TODO: Replace, or say I'm the uncle of these kitties or something
+              src="../../images/grad.png" // TODO: Replace, or say I'm the uncle of these kitties or something
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Cats"

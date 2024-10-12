@@ -6,6 +6,11 @@ import { srConfig } from '@config';
 import { KEY_CODES } from '@utils';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+{
+  /* TODO: consider adding pics to this section (maybe beach or lifeguard pics?)
+import { StyledPic } from '../picture';
+import { StaticImage } from 'gatsby-plugin-image'; */
+}
 
 const StyledJobsSection = styled.section`
   max-width: 900px;

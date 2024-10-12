@@ -45,6 +45,7 @@ const StyledTagsContainer = styled.main`
   }
 `;
 
+// TODO: fix link to "/blog" on line 60
 const TagTemplate = ({ pageContext, data, location }) => {
   const { tag } = pageContext;
   const { edges } = data.allMarkdownRemark;
