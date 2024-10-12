@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/blog/tags/sports-betting/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Why you are betting on the wrong NBA teams","description":"Sometimes, it's the teams you least expect.","date":"2021-04-21T12:00:00.000Z","slug":"/blog/betting-nba","tags":["Sports Betting","Data Science"]}}}]}},"pageContext":{"tag":"Sports Betting"}},
-    "staticQueryHashes": ["3539500889","604461682"]}

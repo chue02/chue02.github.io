@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/blog/tags/nba/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Why it’s time to invest in NBA Top Shot","description":"Why I believe this could be the future of investing in athletes.","date":"2021-01-25T12:00:00.000Z","slug":"/blog/why-nba-topshot","tags":["NBA","NFT"]}}}]}},"pageContext":{"tag":"NBA"}},
-    "staticQueryHashes": ["3539500889","604461682"]}

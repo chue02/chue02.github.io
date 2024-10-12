@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/blog/tags/resources/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"frontmatter":{"title":"Top resources for breaking into baseball","description":"I’m sharing a list of my favorite resources that helped me join an MLB front office.","date":"2020-08-03T12:00:00.000Z","slug":"/blog/baseball-resources","tags":["MLB","Resources"]}}},{"node":{"frontmatter":{"title":"Breaking into baseball","description":"The modern-day front office has changed.","date":"2020-08-02T12:00:00.000Z","slug":"/blog/breaking-into-baseball","tags":["MLB","Resources"]}}}]}},"pageContext":{"tag":"Resources"}},
-    "staticQueryHashes": ["3539500889","604461682"]}
