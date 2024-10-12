@@ -92,11 +92,13 @@ npm run build
 npm run serve
 ```
 
-However, if you want to **deploy** your website for publishing, switch to the `main` branch, use the command:
+However, if you want to **deploy** your website for publishing, use the command:
 
 ```sh
-npm run serve
+npm run deploy
 ```
+
+I believe you should run this command in the `dev` brnach, but of course back-up the last version of your code *before* you run this command. That's what GitHub's for, after all!
 
 ## 🎨 Color Reference
 
