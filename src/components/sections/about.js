@@ -73,28 +73,15 @@ const About = () => {
               better, and where's about better place to start than my <i>About Me</i>?
             </p>
 
-            {/*TODO: AFTER graduation, change all college-related stuff to be past-tense. */}
+            {/*TODO: AFTER graduation, change all college-related stuff to be past-tense.
+              Also perhaps make a hypernlink to the skills page?*/}
             <p>
               I was born and raised in Long Island, New York. After high school, I ventured across
               the country for college, <b>the University of California, Los Angeles.</b> Here I am
-              obtaining my Bachelor of Science in Mathematics of Computation.
-            </p>
-
-            <p>
-              The cool thing about my major is it allows me to enroll courses in math, computer
-              science, and statistics. I took advantage of it's versatiility to learn a variety of
-              valuable skills such as:
-              <ul>
-                <li>Machine learning</li>
-                <li>Data mining</li>
-                <li>Data structures & algorithms</li>
-                <li>Actuarial science & financial mathematics </li>
-                <li>Mathematical optimization</li>
-                <li>
-                  <b>Problem solving and critical thinking</b> (the most valuable)
-                </li>
-                <li>And much more!</li>
-              </ul>
+              obtaining my Bachelor of Science in Mathematics of Computation. The cool thing about
+              my major is its versatility allows me to enroll in classes in math, computer science,
+              and statistics. You can see the skills and courses I've taken in my <b>Skills</b>{' '}
+              page.
             </p>
 
             <p>
@@ -103,6 +90,12 @@ const About = () => {
               partial to jobs involving data analysis, particularly ones related to football
               statistics (go Giants), as I am drawn by the potential to use data to solve problems,
               answer questions, and discover new strategies within the sport.
+            </p>
+
+            {/*TODO: Elaborate more about BSA Research */}
+            <p>
+              Currently, I'm involved in the Research team in Bruin Sports Analytics. We will use ML
+              tools to solve questions related to sports strategies and analytics!
             </p>
 
             <p>

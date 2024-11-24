@@ -36,14 +36,10 @@ const SkillPage = ({ location }) => (
       <header>
         <h1 className="big-heading">Skills and Courses</h1>
         <h3 className="subtitle">
-          <p>
-              This page contains detalied lists of my skills and the courses I've taken at UCLA!
-          </p>
+          <p>This page contains detalied lists of my skills and the courses I've taken at UCLA!</p>
         </h3>
       </header>
-
       <Skillset />
-
       <CoursesTable />
     </StyledMainContainer>
   </Layout>

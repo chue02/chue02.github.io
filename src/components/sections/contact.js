@@ -75,7 +75,7 @@ const Contact = () => {
       <p>Here you can find ways to contact me via my social media!</p>
 
       <a href={resume} target="_blank" rel="noopener noreferrer">
-        Click here to download my resume!
+        <i> Click here to download my resume! </i>
       </a>
 
       <br></br>
