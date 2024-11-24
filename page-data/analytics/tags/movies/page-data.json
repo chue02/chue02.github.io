@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/analytics/tags/movies/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Why Horror Movies Don't Scare Me (Until I Saw this One)","description":"I'm fascinated by the horror genre, but I've never gotten scared by movies since I was a child. That is until I saw the Witch a few nights ago.","date":"2024-10-26T12:00:00.000Z","slug":"/opinions/witch-review","tags":["Movies","Reviews"]}}}]}},"pageContext":{"tag":"Movies"}},
+    "staticQueryHashes": ["3539500889","604461682"]}
