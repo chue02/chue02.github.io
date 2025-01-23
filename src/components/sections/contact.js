@@ -6,7 +6,7 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 import { StyledPic } from '../picture';
-import resume from '../../images/resume24.pdf'; // Update year number as you update resume
+import resume from '../../images/Resume25site.pdf'; 
 
 const StyledContactSection = styled.section`
   max-width: 900px;
@@ -90,7 +90,7 @@ const Contact = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/bike.png" //TODO: replace this image (football w/ friends image?)
+              src="../../images/bike.png" //TODO: replace 
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
@@ -102,7 +102,7 @@ const Contact = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/grad.png" // TODO: Replace, or say I'm the uncle of these kitties or something
+              src="../../images/grad.png" // TODO: Replace
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Cats"

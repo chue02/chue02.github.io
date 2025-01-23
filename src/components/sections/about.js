@@ -85,22 +85,14 @@ const About = () => {
             </p>
 
             <p>
-              Right now I am wrapping up my final academic term at UCLA. After graduation, my goal
-              is to pursue a career that intersects my skillset with my interests. I'm currently
-              partial to jobs involving data analysis, particularly ones related to football
-              statistics (go Giants), as I am drawn by the potential to use data to solve problems,
-              answer questions, and discover new strategies within the sport.
-            </p>
-
-            {/*TODO: Elaborate more about BSA Research */}
-            <p>
-              Currently, I'm involved in the Research team in Bruin Sports Analytics. We will use ML
-              tools to solve questions related to sports strategies and analytics!
+              I recently graduated from UCLA and my current goal is to launch my career, 
+              particularly ones involving data science. I am drawn by the potential of using analytics 
+              to solve problems, answer questions, and discover operational strategies.
             </p>
 
             <p>
-              Other than analytics, some of my passions are cinema, rock music, photography, biking,
-              fitness, and coffee brewing. I often go on lengthy discussions with my friends about
+              My personal interests incude sports (especially my New York Giants), cinema, rock music, 
+              photography, biking, fitness, and coffee brewing. I often go on lengthy discussions about
               these subjects, such as reviewing the latest movie I saw or sharing my progress in my
               fitness journey. Why not publish my opinions somewhere so my friends can access them
               on their own demand and with nicely structured presenteation?
