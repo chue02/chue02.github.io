@@ -153,7 +153,7 @@ const ArchivePage = ({ location, data }) => {
           <header ref={revealTitle}>
             <h1 className="big-heading">Portfolio</h1>
             <p className="subtitle">
-              My collection of coding projects, sports analytics articles, short films, and more.
+              My collection of coding projects, sports analytics, short films, and more.
             </p>
           </header>
 
