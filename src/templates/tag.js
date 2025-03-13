@@ -45,16 +45,7 @@ const StyledTagsContainer = styled.main`
   }
 `;
 
-// Checks to see if tags should be under analytical posts or opinionated posts
-let pathCheck = "opinions"; 
-let path = "analytics";
 
-if (window.location.href.includes(pathCheck)) {
-  path = "opinions";
-} 
-
-// When you click a tag, it will direct you to all posts marked with that tag 
-// regardless if it is an opinion one or analytical one. Could fix that later.
 const TagTemplate = ({ pageContext, data, location }) => {
   const { tag } = pageContext;
   const { edges } = data.allMarkdownRemark;
@@ -66,13 +57,13 @@ const TagTemplate = ({ pageContext, data, location }) => {
       <StyledTagsContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to={"/" + path}>All {path} posts</Link>
+          <Link to="../../">Go back</Link>
         </span>
 
         <h1>
           <span>#{tag}</span>
           <span>
-            <Link to={"/" + path + "/tags"}>View all tags</Link>
+            <Link to={"../"}>View all tags</Link>
           </span>
         </h1>
 
@@ -96,7 +87,7 @@ const TagTemplate = ({ pageContext, data, location }) => {
                   {tags &&
                     tags.length > 0 &&
                     tags.map((tag, i) => (
-                      <Link key={i} to={`/${path}/tags/${kebabCase(tag)}/`} className="tag">
+                      <Link key={i} to={`../${kebabCase(tag)}/`} className="tag">
                         #{tag}
                       </Link>
                     ))}

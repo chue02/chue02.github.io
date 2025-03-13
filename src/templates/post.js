@@ -50,12 +50,6 @@ const StyledPostContent = styled.div`
   }
 `;
 
-let pathCheck = "opinions"; 
-let path = "analytics";
-
-if (window.location.href.includes(pathCheck)) {
-  path = "opinions";
-} 
 
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
@@ -85,7 +79,7 @@ const PostTemplate = ({ data, location }) => {
             {tags &&
               tags.length > 0 &&
               tags.map((tag, i) => (
-                <Link key={i} to={`/${path}/tags/${kebabCase(tag)}/`} className="tag">
+                <Link key={i} to={`../tags/${kebabCase(tag)}/`} className="tag">
                   #{tag}
                 </Link>
               ))}
