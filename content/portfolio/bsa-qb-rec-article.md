@@ -1,7 +1,7 @@
 ---
 date: 2024-09-01 12:00:00
 category: Sports
-title: How Much Do Top Receivers Contribute to a Quarterback's Stats?
+title: (Article) How Much Do Top Receivers Contribute to a Quarterback's Stats?
 external: https://www.bruinsportsanalytics.com/post/how-top-receivers-contribute-qb-stats
 showInProjects: true
 ---

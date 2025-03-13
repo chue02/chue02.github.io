@@ -6,8 +6,9 @@ draft: false
 slug: /analytics/blitz-analysis
 cover: './wink.jpg' # TODO: Add new thumbnail
 tags:
+  - Pandas
+  - MatPlotLib
   - Football
-  - NFL
   - Giants
 ---
 

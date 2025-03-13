@@ -154,8 +154,8 @@ const BlogPage = ({ location, data }) => {
           <h1 className="big-heading">The Analytics</h1>
           <h3 className="subtitle">
             <p>
-              Editor-at-large using data journalism. I mostly cover football, but I'll publish
-              anaylitcal findings over anything that excites me.
+              Data journalism editor-at-large. I mostly cover football, but I'll publish
+              anaylitcal findings over anything interesting.
             </p>
           </h3>
           {/* Add sub-header that is a funny quote about analytics from a funny athlete */}

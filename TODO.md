@@ -57,6 +57,7 @@
   - [x] `src/config.js`
   - [x] `gatsby-config.js`
 - [x] How can I removed the numbered part?
+- [ ] Sort courses table
 
 ### Analytics
 

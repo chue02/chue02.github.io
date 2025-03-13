@@ -50,7 +50,13 @@ const StyledPostContent = styled.div`
   }
 `;
 
-// TODO: fix link to "/blog" on line 65
+let pathCheck = "opinions"; 
+let path = "analytics";
+
+if (window.location.href.includes(pathCheck)) {
+  path = "opinions";
+} 
+
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
   const { title, date, tags } = frontmatter;
@@ -79,7 +85,7 @@ const PostTemplate = ({ data, location }) => {
             {tags &&
               tags.length > 0 &&
               tags.map((tag, i) => (
-                <Link key={i} to={`/blog/tags/${kebabCase(tag)}/`} className="tag">
+                <Link key={i} to={`/${path}/tags/${kebabCase(tag)}/`} className="tag">
                   #{tag}
                 </Link>
               ))}
