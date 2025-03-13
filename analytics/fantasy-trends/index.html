@@ -1,0 +1,533 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 4.4.0"/><title data-react-helmet="true">Case Studies of Reliability in Fantasy Football | Eric Chu</title><meta data-react-helmet="true" name="description" content="Eric Chu: Get to Know Me More!"/><meta data-react-helmet="true" name="image" content="https://chue02.github.io/og.png"/><meta data-react-helmet="true" property="og:title" content="Eric Chu"/><meta data-react-helmet="true" property="og:description" content="Eric Chu: Get to Know Me More!"/><meta data-react-helmet="true" property="og:image" content="https://chue02.github.io/og.png"/><meta data-react-helmet="true" property="og:url" content="https://chue02.github.io/analytics/fantasy-trends"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator"/><meta data-react-helmet="true" name="twitter:title" content="Eric Chu"/><meta data-react-helmet="true" name="twitter:description" content="Eric Chu: Get to Know Me More!"/><meta data-react-helmet="true" name="twitter:image" content="https://chue02.github.io/og.png"/><meta data-react-helmet="true" name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk"/><style data-styled="" data-styled-version="5.3.3">@font-face{font-family:'Calibre';src:url(/static/Calibre-Regular-b0d4cbb1201155ddccc21d1b8059a670.woff2) format('woff2'), url(/static/Calibre-Regular-98526589fa32315c552129869e08427e.woff) format('woff');font-weight:400;font-style:normal;font-display:auto;}/*!sc*/
+@font-face{font-family:'Calibre';src:url(/static/Calibre-Medium-568dce56f869a519a015d3b69443b067.woff2) format('woff2'), url(/static/Calibre-Medium-46693d9b57a6b8a657b5393258f6e899.woff) format('woff');font-weight:500;font-style:normal;font-display:auto;}/*!sc*/
+@font-face{font-family:'Calibre';src:url(/static/Calibre-Semibold-94fc73852539d6733dc0d80252c5e3fb.woff2) format('woff2'), url(/static/Calibre-Semibold-6972688a249bd53a6c7e69a89e50cdd6.woff) format('woff');font-weight:600;font-style:normal;font-display:auto;}/*!sc*/
+@font-face{font-family:'Calibre';src:url(/static/Calibre-RegularItalic-5f875bd7b669f1e11b622d4d6d71b5b0.woff2) format('woff2'), url(/static/Calibre-RegularItalic-57371b9e514dbbe9da31dad1a298de2d.woff) format('woff');font-weight:400;font-style:italic;font-display:auto;}/*!sc*/
+@font-face{font-family:'Calibre';src:url(/static/Calibre-MediumItalic-7aa140573fd9ed30ae01e117c418b12b.woff2) format('woff2'), url(/static/Calibre-MediumItalic-aa285f95879aa2c2d26b228d5e422da6.woff) format('woff');font-weight:500;font-style:italic;font-display:auto;}/*!sc*/
+@font-face{font-family:'Calibre';src:url(/static/Calibre-SemiboldItalic-5f04bffe7ce988169806d66e417a966a.woff2) format('woff2'), url(/static/Calibre-SemiboldItalic-ad4bd95abee7bca1bdd6a93398f84a04.woff) format('woff');font-weight:600;font-style:italic;font-display:auto;}/*!sc*/
+@font-face{font-family:'SF Mono';src:url(/static/SFMono-Regular-8799e6387338d58f2f137df821c86eb4.woff2) format('woff2'), url(/static/SFMono-Regular-e36fa5257c93fc7711eae342068f9eda.woff) format('woff');font-weight:400;font-style:normal;font-display:auto;}/*!sc*/
+@font-face{font-family:'SF Mono';src:url(/static/SFMono-Semibold-6e6f6c93f4bdf9cbd090c60e97a017e2.woff2) format('woff2'), url(/static/SFMono-Semibold-ee054046915420413d0068fb1e7105c3.woff) format('woff');font-weight:600;font-style:normal;font-display:auto;}/*!sc*/
+@font-face{font-family:'SF Mono';src:url(/static/SFMono-RegularItalic-a596917f86217b40000ff1b894cd0e52.woff2) format('woff2'), url(/static/SFMono-RegularItalic-3a20a00dfdeb4ba538473fa7bf625cbd.woff) format('woff');font-weight:400;font-style:italic;font-display:auto;}/*!sc*/
+@font-face{font-family:'SF Mono';src:url(/static/SFMono-SemiboldItalic-9a0ae6382e12c5e28a7342ffb41cf4da.woff2) format('woff2'), url(/static/SFMono-SemiboldItalic-10eb596e904940cd1aebb2cc6286015c.woff) format('woff');font-weight:600;font-style:italic;font-display:auto;}/*!sc*/
+:root{--dark-navy:#020c1b;--navy:#07011f;--light-navy:#112240;--lightest-navy:#233554;--navy-shadow:rgba(2,12,27,0.7);--dark-slate:#495670;--slate:#a8b2d1;--light-slate:#ced4e8;--lightest-slate:#ccd6f6;--white:#e6f1ff;--green:#1cf3ff;--green-tint:rgba(100,255,218,0.1);--pink:#f57dff;--blue:#57cbff;--font-sans:'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;--font-mono:'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;--fz-xxs:12px;--fz-xs:13px;--fz-sm:14px;--fz-md:16px;--fz-lg:18px;--fz-xl:20px;--fz-xxl:22px;--fz-heading:32px;--border-radius:4px;--nav-height:100px;--nav-scroll-height:70px;--tab-height:42px;--tab-width:120px;--easing:cubic-bezier(0.645,0.045,0.355,1);--transition:all 0.25s cubic-bezier(0.645,0.045,0.355,1);--hamburger-width:30px;--ham-before:top 0.1s ease-in 0.25s,opacity 0.1s ease-in;--ham-before-active:top 0.1s ease-out,opacity 0.1s ease-out 0.12s;--ham-after:bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);--ham-after-active:bottom 0.1s ease-out,transform 0.22s cubic-bezier(0.215,0.61,0.355,1) 0.12s;}/*!sc*/
+html{box-sizing:border-box;width:100%;}/*!sc*/
+*,*:before,*:after{box-sizing:inherit;}/*!sc*/
+::selection{background-color:var(--lightest-navy);color:var(--lightest-slate);}/*!sc*/
+:focus{outline:2px dashed var(--green);outline-offset:3px;}/*!sc*/
+html{-webkit-scrollbar-width:thin;-moz-scrollbar-width:thin;-ms-scrollbar-width:thin;scrollbar-width:thin;-webkit-scrollbar-color:var(--dark-slate) var(--navy);-moz-scrollbar-color:var(--dark-slate) var(--navy);-ms-scrollbar-color:var(--dark-slate) var(--navy);scrollbar-color:var(--dark-slate) var(--navy);}/*!sc*/
+body::-webkit-scrollbar{width:12px;}/*!sc*/
+body::-webkit-scrollbar-track{background:var(--navy);}/*!sc*/
+body::-webkit-scrollbar-thumb{background-color:var(--dark-slate);border:3px solid var(--navy);border-radius:10px;}/*!sc*/
+body{margin:0;width:100%;min-height:100%;overflow-x:hidden;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;background-color:var(--navy);color:var(--slate);font-family:var(--font-sans);font-size:var(--fz-xl);line-height:1.3;}/*!sc*/
+@media (max-width:480px){body{font-size:var(--fz-lg);}}/*!sc*/
+body.hidden{overflow:hidden;}/*!sc*/
+body.blur{overflow:hidden;}/*!sc*/
+body.blur header{background-color:transparent;}/*!sc*/
+body.blur #content > *{-webkit-filter:blur(5px) brightness(0.7);filter:blur(5px) brightness(0.7);-webkit-transition:var(--transition);transition:var(--transition);pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}/*!sc*/
+#root{min-height:100vh;display:grid;grid-template-rows:1fr auto;grid-template-columns:100%;}/*!sc*/
+main{margin:0 auto;width:100%;max-width:1600px;min-height:100vh;padding:200px 150px;}/*!sc*/
+@media (max-width:1080px){main{padding:200px 100px;}}/*!sc*/
+@media (max-width:768px){main{padding:150px 50px;}}/*!sc*/
+@media (max-width:480px){main{padding:125px 25px;}}/*!sc*/
+main.fillHeight{padding:0 150px;}/*!sc*/
+@media (max-width:1080px){main.fillHeight{padding:0 100px;}}/*!sc*/
+@media (max-width:768px){main.fillHeight{padding:0 50px;}}/*!sc*/
+@media (max-width:480px){main.fillHeight{padding:0 25px;}}/*!sc*/
+section{margin:0 auto;padding:100px 0;max-width:1000px;}/*!sc*/
+@media (max-width:768px){section{padding:80px 0;}}/*!sc*/
+@media (max-width:480px){section{padding:60px 0;}}/*!sc*/
+h1,h2,h3,h4,h5,h6{margin:0 0 10px 0;font-weight:600;color:var(--lightest-slate);line-height:1.1;}/*!sc*/
+.big-heading{margin:0;font-size:clamp(40px,8vw,80px);}/*!sc*/
+.medium-heading{margin:0;font-size:clamp(40px,8vw,60px);}/*!sc*/
+.numbered-heading{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;margin:10px 0 40px;width:100%;font-size:clamp(26px,5vw,var(--fz-heading));white-space:nowrap;}/*!sc*/
+.numbered-heading:before{position:relative;bottom:4px;counter-increment:section;content:'0' counter(section) '.';margin-right:10px;color:var(--green);font-family:var(--font-mono);font-size:clamp(var(--fz-md),3vw,var(--fz-xl));font-weight:400;}/*!sc*/
+@media (max-width:480px){.numbered-heading:before{margin-bottom:-3px;margin-right:5px;}}/*!sc*/
+.numbered-heading:after{content:'';display:block;position:relative;top:-5px;width:300px;height:1px;margin-left:20px;background-color:var(--lightest-navy);}/*!sc*/
+@media (max-width:1080px){.numbered-heading:after{width:200px;}}/*!sc*/
+@media (max-width:768px){.numbered-heading:after{width:100%;}}/*!sc*/
+@media (max-width:600px){.numbered-heading:after{margin-left:10px;}}/*!sc*/
+img,svg,.gatsby-image-wrapper{width:100%;max-width:100%;vertical-align:middle;}/*!sc*/
+img[alt=""],img:not([alt]){-webkit-filter:blur(5px);filter:blur(5px);}/*!sc*/
+svg{width:100%;height:100%;fill:currentColor;vertical-align:middle;}/*!sc*/
+svg.feather{fill:none;}/*!sc*/
+a{display:inline-block;-webkit-text-decoration:none;text-decoration:none;-webkit-text-decoration-skip-ink:auto;text-decoration-skip-ink:auto;color:inherit;position:relative;-webkit-transition:var(--transition);transition:var(--transition);}/*!sc*/
+a:hover,a:focus{color:var(--green);}/*!sc*/
+a.inline-link{display:inline-block;-webkit-text-decoration:none;text-decoration:none;-webkit-text-decoration-skip-ink:auto;text-decoration-skip-ink:auto;position:relative;-webkit-transition:var(--transition);transition:var(--transition);color:var(--green);}/*!sc*/
+a.inline-link:hover,a.inline-link:focus,a.inline-link:active{color:var(--green);outline:0;}/*!sc*/
+a.inline-link:hover:after,a.inline-link:focus:after,a.inline-link:active:after{width:100%;}/*!sc*/
+a.inline-link:hover > *,a.inline-link:focus > *,a.inline-link:active > *{color:var(--green) !important;-webkit-transition:var(--transition);transition:var(--transition);}/*!sc*/
+a.inline-link:after{content:'';display:block;width:0;height:1px;position:relative;bottom:0.37em;background-color:var(--green);-webkit-transition:var(--transition);transition:var(--transition);opacity:0.5;}/*!sc*/
+button{cursor:pointer;border:0;border-radius:0;}/*!sc*/
+input,textarea{border-radius:0;outline:0;}/*!sc*/
+input:focus,textarea:focus{outline:0;}/*!sc*/
+input:focus::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder,input:active::-webkit-input-placeholder,textarea:active::-webkit-input-placeholder{opacity:0.5;}/*!sc*/
+input:focus::-moz-placeholder,textarea:focus::-moz-placeholder,input:active::-moz-placeholder,textarea:active::-moz-placeholder{opacity:0.5;}/*!sc*/
+input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder,input:active:-ms-input-placeholder,textarea:active:-ms-input-placeholder{opacity:0.5;}/*!sc*/
+input:focus::placeholder,textarea:focus::placeholder,input:active::placeholder,textarea:active::placeholder{opacity:0.5;}/*!sc*/
+p{margin:0 0 15px 0;}/*!sc*/
+p:last-child,p:last-of-type{margin:0;}/*!sc*/
+p > a{display:inline-block;-webkit-text-decoration:none;text-decoration:none;-webkit-text-decoration-skip-ink:auto;text-decoration-skip-ink:auto;position:relative;-webkit-transition:var(--transition);transition:var(--transition);color:var(--green);}/*!sc*/
+p > a:hover,p > a:focus,p > a:active{color:var(--green);outline:0;}/*!sc*/
+p > a:hover:after,p > a:focus:after,p > a:active:after{width:100%;}/*!sc*/
+p > a:hover > *,p > a:focus > *,p > a:active > *{color:var(--green) !important;-webkit-transition:var(--transition);transition:var(--transition);}/*!sc*/
+p > a:after{content:'';display:block;width:0;height:1px;position:relative;bottom:0.37em;background-color:var(--green);-webkit-transition:var(--transition);transition:var(--transition);opacity:0.5;}/*!sc*/
+p > code{background-color:var(--light-navy);color:var(--white);font-size:var(--fz-sm);border-radius:var(--border-radius);padding:0.3em 0.5em;}/*!sc*/
+ul.fancy-list{padding:0;margin:0;list-style:none;font-size:var(--fz-lg);}/*!sc*/
+ul.fancy-list li{position:relative;padding-left:30px;margin-bottom:10px;}/*!sc*/
+ul.fancy-list li:before{content:'▹';position:absolute;left:0;color:var(--green);}/*!sc*/
+blockquote{border-left-color:var(--green);border-left-style:solid;border-left-width:1px;margin-left:0px;margin-right:0px;padding-left:1.5rem;}/*!sc*/
+blockquote p{font-style:italic;font-size:24px;}/*!sc*/
+hr{background-color:var(--lightest-navy);height:1px;border-width:0px;border-style:initial;border-color:initial;border-image:initial;margin:1rem;}/*!sc*/
+code{font-family:var(--font-mono);font-size:var(--fz-md);}/*!sc*/
+.skip-to-content{color:var(--green);background-color:transparent;border:1px solid var(--green);border-radius:var(--border-radius);font-size:var(--fz-xs);font-family:var(--font-mono);line-height:1;-webkit-text-decoration:none;text-decoration:none;cursor:pointer;-webkit-transition:var(--transition);transition:var(--transition);padding:1.25rem 1.75rem;position:absolute;top:auto;left:-999px;width:1px;height:1px;overflow:hidden;z-index:-99;}/*!sc*/
+.skip-to-content:hover,.skip-to-content:focus,.skip-to-content:active{background-color:var(--green-tint);outline:none;}/*!sc*/
+.skip-to-content:after{display:none !important;}/*!sc*/
+.skip-to-content:focus,.skip-to-content:active{background-color:var(--green);color:var(--navy);top:0;left:0;width:auto;height:auto;overflow:auto;z-index:99;}/*!sc*/
+#logo{color:var(--green);}/*!sc*/
+.overline{color:var(--green);font-family:var(--font-mono);font-size:var(--fz-md);font-weight:400;}/*!sc*/
+.subtitle{color:var(--green);margin:0 0 20px 0;font-size:var(--fz-md);font-family:var(--font-mono);font-weight:400;line-height:1.5;}/*!sc*/
+@media (max-width:1080px){.subtitle{font-size:var(--fz-sm);}}/*!sc*/
+@media (max-width:768px){.subtitle{font-size:var(--fz-xs);}}/*!sc*/
+.subtitle a{display:inline-block;-webkit-text-decoration:none;text-decoration:none;-webkit-text-decoration-skip-ink:auto;text-decoration-skip-ink:auto;position:relative;-webkit-transition:var(--transition);transition:var(--transition);color:var(--green);line-height:1.5;}/*!sc*/
+.subtitle a:hover,.subtitle a:focus,.subtitle a:active{color:var(--green);outline:0;}/*!sc*/
+.subtitle a:hover:after,.subtitle a:focus:after,.subtitle a:active:after{width:100%;}/*!sc*/
+.subtitle a:hover > *,.subtitle a:focus > *,.subtitle a:active > *{color:var(--green) !important;-webkit-transition:var(--transition);transition:var(--transition);}/*!sc*/
+.subtitle a:after{content:'';display:block;width:0;height:1px;position:relative;bottom:0.37em;background-color:var(--green);-webkit-transition:var(--transition);transition:var(--transition);opacity:0.5;}/*!sc*/
+.breadcrumb{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:50px;color:var(--green);}/*!sc*/
+.breadcrumb .arrow{display:block;margin-right:10px;padding-top:4px;}/*!sc*/
+.breadcrumb a{display:inline-block;-webkit-text-decoration:none;text-decoration:none;-webkit-text-decoration-skip-ink:auto;text-decoration-skip-ink:auto;position:relative;-webkit-transition:var(--transition);transition:var(--transition);color:var(--green);font-family:var(--font-mono);font-size:var(--fz-sm);font-weight:600;line-height:1.5;text-transform:uppercase;-webkit-letter-spacing:0.1em;-moz-letter-spacing:0.1em;-ms-letter-spacing:0.1em;letter-spacing:0.1em;}/*!sc*/
+.breadcrumb a:hover,.breadcrumb a:focus,.breadcrumb a:active{color:var(--green);outline:0;}/*!sc*/
+.breadcrumb a:hover:after,.breadcrumb a:focus:after,.breadcrumb a:active:after{width:100%;}/*!sc*/
+.breadcrumb a:hover > *,.breadcrumb a:focus > *,.breadcrumb a:active > *{color:var(--green) !important;-webkit-transition:var(--transition);transition:var(--transition);}/*!sc*/
+.breadcrumb a:after{content:'';display:block;width:0;height:1px;position:relative;bottom:0.37em;background-color:var(--green);-webkit-transition:var(--transition);transition:var(--transition);opacity:0.5;}/*!sc*/
+.gatsby-image-outer-wrapper{height:100%;}/*!sc*/
+.fadeup-enter{opacity:0.01;-webkit-transform:translateY(20px);-ms-transform:translateY(20px);transform:translateY(20px);-webkit-transition:opacity 300ms var(--easing),-webkit-transform 300ms var(--easing);-webkit-transition:opacity 300ms var(--easing),transform 300ms var(--easing);transition:opacity 300ms var(--easing),transform 300ms var(--easing);}/*!sc*/
+.fadeup-enter-active{opacity:1;-webkit-transform:translateY(0px);-ms-transform:translateY(0px);transform:translateY(0px);-webkit-transition:opacity 300ms var(--easing),-webkit-transform 300ms var(--easing);-webkit-transition:opacity 300ms var(--easing),transform 300ms var(--easing);transition:opacity 300ms var(--easing),transform 300ms var(--easing);}/*!sc*/
+.fadedown-enter{opacity:0.01;-webkit-transform:translateY(-20px);-ms-transform:translateY(-20px);transform:translateY(-20px);-webkit-transition:opacity 300ms var(--easing),-webkit-transform 300ms var(--easing);-webkit-transition:opacity 300ms var(--easing),transform 300ms var(--easing);transition:opacity 300ms var(--easing),transform 300ms var(--easing);}/*!sc*/
+.fadedown-enter-active{opacity:1;-webkit-transform:translateY(0px);-ms-transform:translateY(0px);transform:translateY(0px);-webkit-transition:opacity 300ms var(--easing),-webkit-transform 300ms var(--easing);-webkit-transition:opacity 300ms var(--easing),transform 300ms var(--easing);transition:opacity 300ms var(--easing),transform 300ms var(--easing);}/*!sc*/
+.fade-enter{opacity:0;}/*!sc*/
+.fade-enter-active{opacity:1;-webkit-transition:opacity 300ms var(--easing);transition:opacity 300ms var(--easing);}/*!sc*/
+.fade-exit{opacity:1;}/*!sc*/
+.fade-exit-active{opacity:0;-webkit-transition:opacity 300ms var(--easing);transition:opacity 300ms var(--easing);}/*!sc*/
+.gatsby-highlight{background-color:#112340;border-radius:var(--border-radius);margin:2em 0;padding:1.25em;overflow:auto;position:relative;font-family:var(--font-mono);font-size:var(--fz-md);}/*!sc*/
+.gatsby-highlight code[class*='language-'],.gatsby-highlight pre[class*='language-']{height:auto !important;font-size:var(--fz-sm);line-height:1.5;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;tab-size:2;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;}/*!sc*/
+.gatsby-highlight pre[class*='language-']{background-color:transparent;margin:0;padding:0;overflow:initial;float:left;min-width:100%;padding-top:2em;}/*!sc*/
+.gatsby-code-title{padding:1em 1.5em;font-family:var(--font-mono);font-size:var(--fz-xs);background-color:#112340;color:#a2aabc;border-top-left-radius:var(--border-radius);border-top-right-radius:var(--border-radius);border-bottom:1px solid #1d2d50;}/*!sc*/
+.gatsby-code-title + .gatsby-highlight{margin-top:0;border-top-left-radius:0;border-top-right-radius:0;}/*!sc*/
+.gatsby-highlight-code-line{display:block;background-color:#1d2d50;border-left:2px solid var(--green);padding-left:calc(1em + 2px);padding-right:1em;margin-right:-1.35em;margin-left:-1.35em;}/*!sc*/
+.gatsby-highlight pre[class*='language-']::before{background:var(--lightest-navy);color:var(--white);font-size:var(--fz-xxs);font-family:var(--font-mono);line-height:1.5;-webkit-letter-spacing:0.1em;-moz-letter-spacing:0.1em;-ms-letter-spacing:0.1em;letter-spacing:0.1em;text-transform:uppercase;border-radius:0 0 3px 3px;position:absolute;top:0;left:1.25rem;padding:0.25rem 0.5rem;}/*!sc*/
+.gatsby-highlight pre[class='language-javascript']::before{content:'js';}/*!sc*/
+.gatsby-highlight pre[class='language-js']::before{content:'js';}/*!sc*/
+.gatsby-highlight pre[class='language-jsx']::before{content:'jsx';}/*!sc*/
+.gatsby-highlight pre[class='language-graphql']::before{content:'GraphQL';}/*!sc*/
+.gatsby-highlight pre[class='language-html']::before{content:'html';}/*!sc*/
+.gatsby-highlight pre[class='language-css']::before{content:'css';}/*!sc*/
+.gatsby-highlight pre[class='language-mdx']::before{content:'mdx';}/*!sc*/
+.gatsby-highlight pre[class='language-shell']::before{content:'shell';}/*!sc*/
+.gatsby-highlight pre[class='language-sh']::before{content:'sh';}/*!sc*/
+.gatsby-highlight pre[class='language-bash']::before{content:'bash';}/*!sc*/
+.gatsby-highlight pre[class='language-yaml']::before{content:'yaml';}/*!sc*/
+.gatsby-highlight pre[class='language-markdown']::before{content:'md';}/*!sc*/
+.gatsby-highlight pre[class='language-json']::before,.gatsby-highlight pre[class='language-json5']::before{content:'json';}/*!sc*/
+.gatsby-highlight pre[class='language-diff']::before{content:'diff';}/*!sc*/
+.gatsby-highlight pre[class='language-text']::before{content:'text';}/*!sc*/
+.gatsby-highlight pre[class='language-flow']::before{content:'flow';}/*!sc*/
+.token{display:inline;}/*!sc*/
+.token.comment,.token.block-comment,.token.prolog,.token.doctype,.token.cdata{color:#8695b799;}/*!sc*/
+.token.punctuation{color:#a2aabc;}/*!sc*/
+.token.namespace,.token.deleted{color:#ef6b73;}/*!sc*/
+.token.function-name,.token.function,.token.class-name,.token.constant,.token.symbol{color:#ffd580;}/*!sc*/
+.token.attr-name,.token.operator,.token.rule{color:#ffae57;}/*!sc*/
+.token.keyword,.token.boolean,.token.number,.token.property{color:#c3a6ff;}/*!sc*/
+.token.tag,.token.selector,.token.important,.token.atrule,.token.builtin,.token.entity,.token.url{color:#5ccfe6;}/*!sc*/
+.token.string,.token.char,.token.attr-value,.token.regex,.token.variable,.token.inserted{color:#bae67e;}/*!sc*/
+.token.important,.token.bold{font-weight:600;}/*!sc*/
+.token.italic{font-style:italic;}/*!sc*/
+.token.entity{cursor:help;}/*!sc*/
+.namespace{opacity:0.7;}/*!sc*/
+data-styled.g1[id="sc-global-hCGFIW1"]{content:"sc-global-hCGFIW1,"}/*!sc*/
+.EzIrv{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;min-height:100vh;}/*!sc*/
+data-styled.g2[id="layout__StyledContent-sc-9if3dg-0"]{content:"EzIrv,"}/*!sc*/
+.ejcwOi{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:fixed;top:0;z-index:11;padding:0px 50px;width:100%;height:var(--nav-height);background-color:#07011f;-webkit-filter:none !important;filter:none !important;pointer-events:auto !important;-webkit-user-select:auto !important;-moz-user-select:auto !important;-ms-user-select:auto !important;user-select:auto !important;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);-webkit-transition:var(--transition);transition:var(--transition);}/*!sc*/
+@media (max-width:1080px){.ejcwOi{padding:0 40px;}}/*!sc*/
+@media (max-width:768px){.ejcwOi{padding:0 25px;}}/*!sc*/
+@media (prefers-reduced-motion:no-preference){}/*!sc*/
+data-styled.g4[id="nav__StyledHeader-sc-18jzds0-0"]{content:"ejcwOi,"}/*!sc*/
+.fqiNTN{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;width:100%;color:var(--lightest-slate);font-family:var(--font-mono);counter-reset:item 0;z-index:12;}/*!sc*/
+.fqiNTN .logo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
+.fqiNTN .logo a{color:var(--green);width:42px;height:42px;}/*!sc*/
+.fqiNTN .logo a:hover svg,.fqiNTN .logo a:focus svg{fill:var(--green-tint);}/*!sc*/
+.fqiNTN .logo a svg{fill:none;-webkit-transition:var(--transition);transition:var(--transition);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}/*!sc*/
+data-styled.g5[id="nav__StyledNav-sc-18jzds0-1"]{content:"fqiNTN,"}/*!sc*/
+.eeJZRB{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
+@media (max-width:768px){.eeJZRB{display:none;}}/*!sc*/
+.eeJZRB ol{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0;margin:0;list-style:none;}/*!sc*/
+.eeJZRB ol li{margin:0 5px;position:relative;counter-increment:item 1;font-size:var(--fz-xs);}/*!sc*/
+.eeJZRB ol li a{padding:10px;}/*!sc*/
+.eeJZRB ol li a:before{margin-right:5px;color:var(--green);font-size:var(--fz-xxs);text-align:right;}/*!sc*/
+.eeJZRB .resume-button{color:var(--green);background-color:transparent;border:1px solid var(--green);border-radius:var(--border-radius);padding:0.75rem 1rem;font-size:var(--fz-xs);font-family:var(--font-mono);line-height:1;-webkit-text-decoration:none;text-decoration:none;cursor:pointer;-webkit-transition:var(--transition);transition:var(--transition);margin-left:15px;font-size:var(--fz-xs);}/*!sc*/
+.eeJZRB .resume-button:hover,.eeJZRB .resume-button:focus,.eeJZRB .resume-button:active{background-color:var(--green-tint);outline:none;}/*!sc*/
+.eeJZRB .resume-button:after{display:none !important;}/*!sc*/
+data-styled.g6[id="nav__StyledLinks-sc-18jzds0-2"]{content:"eeJZRB,"}/*!sc*/
+.jXesrw{display:none;}/*!sc*/
+@media (max-width:768px){.jXesrw{display:block;}}/*!sc*/
+data-styled.g7[id="menu__StyledMenu-sc-1tm5r9f-0"]{content:"jXesrw,"}/*!sc*/
+.hNSogY{display:none;}/*!sc*/
+@media (max-width:768px){.hNSogY{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;z-index:10;margin-right:-15px;padding:15px;border:0;background-color:transparent;color:inherit;text-transform:none;-webkit-transition-timing-function:linear;transition-timing-function:linear;-webkit-transition-duration:0.15s;transition-duration:0.15s;-webkit-transition-property:opacity,filter;transition-property:opacity,filter;}}/*!sc*/
+.hNSogY .ham-box{display:inline-block;position:relative;width:var(--hamburger-width);height:24px;}/*!sc*/
+.hNSogY .ham-box-inner{position:absolute;top:50%;right:0;width:var(--hamburger-width);height:2px;border-radius:var(--border-radius);background-color:var(--green);-webkit-transition-duration:0.22s;transition-duration:0.22s;-webkit-transition-property:-webkit-transform;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-delay:0s;transition-delay:0s;-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition-timing-function:cubic-bezier( 0.55,0.055,0.675,0.19 );transition-timing-function:cubic-bezier( 0.55,0.055,0.675,0.19 );}/*!sc*/
+.hNSogY .ham-box-inner:before,.hNSogY .ham-box-inner:after{content:'';display:block;position:absolute;left:auto;right:0;width:var(--hamburger-width);height:2px;border-radius:4px;background-color:var(--green);-webkit-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-duration:0.15s;transition-duration:0.15s;-webkit-transition-property:-webkit-transform;-webkit-transition-property:transform;transition-property:transform;}/*!sc*/
+.hNSogY .ham-box-inner:before{width:120%;top:-10px;opacity:1;-webkit-transition:var(--ham-before);transition:var(--ham-before);}/*!sc*/
+.hNSogY .ham-box-inner:after{width:80%;bottom:-10px;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:var(--ham-after);transition:var(--ham-after);}/*!sc*/
+data-styled.g8[id="menu__StyledHamburgerButton-sc-1tm5r9f-1"]{content:"hNSogY,"}/*!sc*/
+.jXYWqh{display:none;}/*!sc*/
+@media (max-width:768px){.jXYWqh{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:fixed;top:0;bottom:0;right:0;padding:50px 10px;width:min(75vw,400px);height:100vh;outline:0;background-color:var(--light-navy);box-shadow:-10px 0px 30px -15px var(--navy-shadow);z-index:9;-webkit-transform:translateX(100vw);-ms-transform:translateX(100vw);transform:translateX(100vw);visibility:hidden;-webkit-transition:var(--transition);transition:var(--transition);}}/*!sc*/
+.jXYWqh nav{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;color:var(--lightest-slate);font-family:var(--font-mono);text-align:center;}/*!sc*/
+.jXYWqh ol{padding:0;margin:0;list-style:none;width:100%;}/*!sc*/
+.jXYWqh ol li{position:relative;margin:0 auto 20px;counter-increment:item 1;font-size:clamp(var(--fz-sm),4vw,var(--fz-lg));}/*!sc*/
+@media (max-width:600px){.jXYWqh ol li{margin:0 auto 10px;}}/*!sc*/
+.jXYWqh ol li:before{content:'0' counter(item) '.';display:block;margin-bottom:5px;color:var(--green);font-size:var(--fz-sm);}/*!sc*/
+.jXYWqh ol a{display:inline-block;-webkit-text-decoration:none;text-decoration:none;-webkit-text-decoration-skip-ink:auto;text-decoration-skip-ink:auto;color:inherit;position:relative;-webkit-transition:var(--transition);transition:var(--transition);width:100%;padding:3px 20px 20px;}/*!sc*/
+.jXYWqh ol a:hover,.jXYWqh ol a:active,.jXYWqh ol a:focus{color:var(--green);outline:0;}/*!sc*/
+.jXYWqh .resume-link{color:var(--green);background-color:transparent;border:1px solid var(--green);border-radius:var(--border-radius);padding:1.25rem 1.75rem;font-size:var(--fz-sm);font-family:var(--font-mono);line-height:1;-webkit-text-decoration:none;text-decoration:none;cursor:pointer;-webkit-transition:var(--transition);transition:var(--transition);padding:18px 50px;margin:10% auto 0;width:-webkit-max-content;width:-moz-max-content;width:max-content;}/*!sc*/
+.jXYWqh .resume-link:hover,.jXYWqh .resume-link:focus,.jXYWqh .resume-link:active{background-color:var(--green-tint);outline:none;}/*!sc*/
+.jXYWqh .resume-link:after{display:none !important;}/*!sc*/
+data-styled.g9[id="menu__StyledSidebar-sc-1tm5r9f-2"]{content:"jXYWqh,"}/*!sc*/
+.bVYiuN{width:40px;position:fixed;bottom:0;left:40px;right:auto;z-index:10;color:var(--light-slate);}/*!sc*/
+@media (max-width:1080px){.bVYiuN{left:20px;right:auto;}}/*!sc*/
+@media (max-width:768px){.bVYiuN{display:none;}}/*!sc*/
+.dQEMQp{width:40px;position:fixed;bottom:0;left:auto;right:40px;z-index:10;color:var(--light-slate);}/*!sc*/
+@media (max-width:1080px){.dQEMQp{left:auto;right:20px;}}/*!sc*/
+@media (max-width:768px){.dQEMQp{display:none;}}/*!sc*/
+data-styled.g10[id="side__StyledSideElement-sc-18di1vb-0"]{content:"bVYiuN,dQEMQp,"}/*!sc*/
+.fnnGbg{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0;padding:0;list-style:none;}/*!sc*/
+.fnnGbg:after{content:'';display:block;width:1px;height:90px;margin:0 auto;background-color:var(--light-slate);}/*!sc*/
+.fnnGbg li:last-of-type{margin-bottom:20px;}/*!sc*/
+.fnnGbg li a{padding:10px;}/*!sc*/
+.fnnGbg li a:hover,.fnnGbg li a:focus{-webkit-transform:translateY(-3px);-ms-transform:translateY(-3px);transform:translateY(-3px);}/*!sc*/
+.fnnGbg li a svg{width:20px;height:20px;}/*!sc*/
+data-styled.g11[id="social__StyledSocialList-sc-1ur2p52-0"]{content:"fnnGbg,"}/*!sc*/
+.fyNXuM{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;}/*!sc*/
+.fyNXuM:after{content:'';display:block;width:1px;height:90px;margin:0 auto;background-color:var(--light-slate);}/*!sc*/
+.fyNXuM a{margin:20px auto;padding:10px;font-family:var(--font-mono);font-size:var(--fz-xxs);line-height:var(--fz-lg);-webkit-letter-spacing:0.1em;-moz-letter-spacing:0.1em;-ms-letter-spacing:0.1em;letter-spacing:0.1em;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;}/*!sc*/
+.fyNXuM a:hover,.fyNXuM a:focus{-webkit-transform:translateY(-3px);-ms-transform:translateY(-3px);transform:translateY(-3px);}/*!sc*/
+.fyNXuM p{margin:20px auto;padding:10px;font-family:var(--font-mono);font-size:var(--fz-xxs);line-height:var(--fz-lg);-webkit-letter-spacing:0.1em;-moz-letter-spacing:0.1em;-ms-letter-spacing:0.1em;letter-spacing:0.1em;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;}/*!sc*/
+data-styled.g13[id="email__StyledLinkWrapper-sc-1qzxc6r-0"]{content:"fyNXuM,"}/*!sc*/
+.fdCDgy{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;height:auto;min-height:70px;padding:15px;text-align:center;}/*!sc*/
+data-styled.g14[id="footer__StyledFooter-sc-1jfesyl-0"]{content:"fdCDgy,"}/*!sc*/
+.cORgon{display:none;}/*!sc*/
+@media (max-width:768px){.cORgon{display:block;width:100%;max-width:270px;margin:0 auto 10px;color:var(--light-slate);}}/*!sc*/
+.cORgon ul{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0;margin:0;list-style:none;}/*!sc*/
+.cORgon ul a{padding:10px;}/*!sc*/
+.cORgon ul a svg{width:20px;height:20px;}/*!sc*/
+data-styled.g15[id="footer__StyledSocialLinks-sc-1jfesyl-1"]{content:"cORgon,"}/*!sc*/
+.eYqJx{color:var(--light-slate);font-family:var(--font-mono);font-size:var(--fz-xxs);line-height:1;}/*!sc*/
+.eYqJx a{padding:10px;}/*!sc*/
+.eYqJx .github-stats{margin-top:10px;}/*!sc*/
+.eYqJx .github-stats > span{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0 7px;}/*!sc*/
+.eYqJx .github-stats svg{display:inline-block;margin-right:5px;width:14px;height:14px;}/*!sc*/
+data-styled.g16[id="footer__StyledCredit-sc-1jfesyl-2"]{content:"eYqJx,"}/*!sc*/
+.kA-dmdC{max-width:1000px;}/*!sc*/
+data-styled.g28[id="post__StyledPostContainer-sc-1u2ezkd-0"]{content:"kA-dmdC,"}/*!sc*/
+.kGVBDt{margin-bottom:50px;}/*!sc*/
+.kGVBDt .tag{margin-right:10px;}/*!sc*/
+data-styled.g29[id="post__StyledPostHeader-sc-1u2ezkd-1"]{content:"kGVBDt,"}/*!sc*/
+.htjfxM{margin-bottom:100px;}/*!sc*/
+.htjfxM h1,.htjfxM h2,.htjfxM h3,.htjfxM h4,.htjfxM h5,.htjfxM h6{margin:2em 0 1em;}/*!sc*/
+.htjfxM p{margin:1em 0;line-height:1.5;color:var(--light-slate);}/*!sc*/
+.htjfxM a{display:inline-block;-webkit-text-decoration:none;text-decoration:none;-webkit-text-decoration-skip-ink:auto;text-decoration-skip-ink:auto;position:relative;-webkit-transition:var(--transition);transition:var(--transition);color:var(--green);}/*!sc*/
+.htjfxM a:hover,.htjfxM a:focus,.htjfxM a:active{color:var(--green);outline:0;}/*!sc*/
+.htjfxM a:hover:after,.htjfxM a:focus:after,.htjfxM a:active:after{width:100%;}/*!sc*/
+.htjfxM a:hover > *,.htjfxM a:focus > *,.htjfxM a:active > *{color:var(--green) !important;-webkit-transition:var(--transition);transition:var(--transition);}/*!sc*/
+.htjfxM a:after{content:'';display:block;width:0;height:1px;position:relative;bottom:0.37em;background-color:var(--green);-webkit-transition:var(--transition);transition:var(--transition);opacity:0.5;}/*!sc*/
+.htjfxM code{background-color:var(--lightest-navy);color:var(--lightest-slate);border-radius:var(--border-radius);font-size:var(--fz-sm);padding:0.2em 0.4em;}/*!sc*/
+.htjfxM pre code{background-color:transparent;padding:0;}/*!sc*/
+data-styled.g30[id="post__StyledPostContent-sc-1u2ezkd-2"]{content:"htjfxM,"}/*!sc*/
+</style><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){const t=e.target;if(void 0===t.dataset.mainImage)return;if(void 0===t.dataset.gatsbyImageSsr)return;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link rel="sitemap" type="application/xml" href="/sitemap/sitemap-index.xml"/><link rel="icon" href="/favicon-32x32.png?v=c1f05631d4c8540808f79ecd851f8412" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#07011F"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=c1f05631d4c8540808f79ecd851f8412"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=c1f05631d4c8540808f79ecd851f8412"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=c1f05631d4c8540808f79ecd851f8412"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=c1f05631d4c8540808f79ecd851f8412"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=c1f05631d4c8540808f79ecd851f8412"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=c1f05631d4c8540808f79ecd851f8412"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=c1f05631d4c8540808f79ecd851f8412"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=c1f05631d4c8540808f79ecd851f8412"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/webpack-runtime-fa555614c0f20140dde7.js"/><link as="script" rel="preload" href="/framework-5ed3be7e33073f87ee7a.js"/><link as="script" rel="preload" href="/app-bee7cb5f34ba85891e49.js"/><link as="script" rel="preload" href="/3583f7347238c3587039405d64694a23e72b5b60-e0912aef2d2b09e54137.js"/><link as="script" rel="preload" href="/dac4ca1958d7374e2f2876e2efd0f31b2f3ba791-378593f47be881068a1d.js"/><link as="script" rel="preload" href="/8cfc05f7e612149819ce77eeb6f87f7390b95c6b-b4f2f4456f7add030c74.js"/><link as="script" rel="preload" href="/component---src-templates-post-js-4d4f8bab7505c9e75acb.js"/><link as="fetch" rel="preload" href="/page-data/analytics/fantasy-trends/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3539500889.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/604461682.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body class=""><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="root"><a class="skip-to-content" href="#content">Skip to Content</a><div class="layout__StyledContent-sc-9if3dg-0 EzIrv"><header class="nav__StyledHeader-sc-18jzds0-0 ejcwOi"><nav class="nav__StyledNav-sc-18jzds0-1 fqiNTN"><div class="logo" tabindex="-1"><a aria-label="home" href="/"><div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained img"><div style="max-width:1024px;display:block"><img alt="" role="presentation" aria-hidden="true" src="data:image/svg+xml;charset=utf-8,%3Csvg height=&#x27;1024&#x27; width=&#x27;1024&#x27; xmlns=&#x27;http://www.w3.org/2000/svg&#x27; version=&#x27;1.1&#x27;%3E%3C/svg%3E" style="max-width:100%;display:block;position:static"/></div><div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear;background-color:#f8f8e8;position:absolute;top:0;left:0;bottom:0;right:0"></div><picture><source type="image/avif" data-srcset="/static/c1f05631d4c8540808f79ecd851f8412/fbdba/logo.avif 256w,/static/c1f05631d4c8540808f79ecd851f8412/1c52e/logo.avif 512w,/static/c1f05631d4c8540808f79ecd851f8412/6bf3d/logo.avif 1024w" sizes="(min-width: 1024px) 1024px, 100vw"/><source type="image/webp" data-srcset="/static/c1f05631d4c8540808f79ecd851f8412/99d55/logo.webp 256w,/static/c1f05631d4c8540808f79ecd851f8412/3591c/logo.webp 512w,/static/c1f05631d4c8540808f79ecd851f8412/e306d/logo.webp 1024w" sizes="(min-width: 1024px) 1024px, 100vw"/><img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 1024px) 1024px, 100vw" decoding="async" loading="lazy" data-src="/static/c1f05631d4c8540808f79ecd851f8412/44dd9/logo.jpg" data-srcset="/static/c1f05631d4c8540808f79ecd851f8412/80079/logo.jpg 256w,/static/c1f05631d4c8540808f79ecd851f8412/a008c/logo.jpg 512w,/static/c1f05631d4c8540808f79ecd851f8412/44dd9/logo.jpg 1024w" alt="Headshot"/></picture><noscript><picture><source type="image/avif" srcSet="/static/c1f05631d4c8540808f79ecd851f8412/fbdba/logo.avif 256w,/static/c1f05631d4c8540808f79ecd851f8412/1c52e/logo.avif 512w,/static/c1f05631d4c8540808f79ecd851f8412/6bf3d/logo.avif 1024w" sizes="(min-width: 1024px) 1024px, 100vw"/><source type="image/webp" srcSet="/static/c1f05631d4c8540808f79ecd851f8412/99d55/logo.webp 256w,/static/c1f05631d4c8540808f79ecd851f8412/3591c/logo.webp 512w,/static/c1f05631d4c8540808f79ecd851f8412/e306d/logo.webp 1024w" sizes="(min-width: 1024px) 1024px, 100vw"/><img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 1024px) 1024px, 100vw" decoding="async" loading="lazy" src="/static/c1f05631d4c8540808f79ecd851f8412/44dd9/logo.jpg" srcSet="/static/c1f05631d4c8540808f79ecd851f8412/80079/logo.jpg 256w,/static/c1f05631d4c8540808f79ecd851f8412/a008c/logo.jpg 512w,/static/c1f05631d4c8540808f79ecd851f8412/44dd9/logo.jpg 1024w" alt="Headshot"/></picture></noscript><script type="module">const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1,e.parentNode.parentNode.querySelector("[data-placeholder-image]").style.opacity=0)}}</script></div></a></div><div class="nav__StyledLinks-sc-18jzds0-2 eeJZRB"><ol><li><a href="/">Home</a></li><li><a href="/#about">About</a></li><li><a href="/analytics">Analytics</a></li><li><a href="/opinions">Opinions</a></li><li><a href="/skills">Skills</a></li><li><a href="/portfolio">Portfolio</a></li><li><a href="/#contact">Contact</a></li></ol></div><div class="menu__StyledMenu-sc-1tm5r9f-0 jXesrw"><div><button aria-label="Menu" class="menu__StyledHamburgerButton-sc-1tm5r9f-1 hNSogY"><div class="ham-box"><div class="ham-box-inner"></div></div></button><aside aria-hidden="true" tabindex="-1" class="menu__StyledSidebar-sc-1tm5r9f-2 jXYWqh"><nav><ol><li><a href="/">Home</a></li><li><a href="/#about">About</a></li><li><a href="/analytics">Analytics</a></li><li><a href="/opinions">Opinions</a></li><li><a href="/skills">Skills</a></li><li><a href="/portfolio">Portfolio</a></li><li><a href="/#contact">Contact</a></li></ol></nav></aside></div></div></nav></header><div orientation="left" class="side__StyledSideElement-sc-18di1vb-0 bVYiuN"><ul class="social__StyledSocialList-sc-1ur2p52-0 fnnGbg"><li><a href="https://www.linkedin.com/in/eric-chu02" aria-label="Linkedin" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li><li><a href="https://www.instagram.com/eric.chu02/" aria-label="Instagram" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li><li><a href="https://github.com/chue02" aria-label="GitHub" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li></ul></div><div orientation="right" class="side__StyledSideElement-sc-18di1vb-0 dQEMQp"><div class="email__StyledLinkWrapper-sc-1qzxc6r-0 fyNXuM"><p>chuericj@gmail.com</p></div></div><div id="content"><main class="post__StyledPostContainer-sc-1u2ezkd-0 kA-dmdC"><span class="breadcrumb"><span class="arrow">←</span><a href="/analytics"> Go Back</a></span><header class="post__StyledPostHeader-sc-1u2ezkd-1 kGVBDt"><h1 class="medium-heading">Case Studies of Reliability in Fantasy Football</h1><p class="subtitle"><time>March 12, 2025</time><span> — </span><a class="tag" href="/analytics/tags/football">#<!-- -->Football</a><a class="tag" href="/analytics/tags/fantasy">#<!-- -->Fantasy</a><a class="tag" href="/analytics/tags/tableau">#<!-- -->Tableau</a></p></header><div class="post__StyledPostContent-sc-1u2ezkd-2 htjfxM"><h2>Background</h2>
+<p>You have two players who average 15 fantasy points per game over the course of a season. One scores 15 points every week for every week of your season, while the other scores either 30 or 0 points per week and
+you're unsure which type of game he'll have. Which player would you rather have?</p>
+<p>This question is the motivation for the following case studies, where I compare selected players' performances with each other. These case studies explore some of the following questions:</p>
+<ol>
+<li>How can we determine which players are a more reliable start compared to each other?</li>
+<li>Which players can we expect to be reliable?</li>
+<li>Are these examined players genuinely volatile, or have we created a bias against them?</li>
+<li>Is it worth it to draft in a way to minimize volatilty and maximize points? If so, what are the most effective strategies?</li>
+</ol>
+<p>These studies will not directly answer these questions, but it will help us find answers to these questions. To visualize the data and the analytics, I created an interactive Tableau story which allows users to filter by position and player. It currently only uses data from the 2024 season. <a href="https://public.tableau.com/shared/8C723Q65Q?:display_count=n&#x26;:origin=viz_share_link" target="_blank" rel="nofollow noopener noreferrer">This viz is pubically available if you want to make your own comparisons.</a></p>
+<p>Also, <strong>any comments and criticisms directed towards players are based on fantasy football, not actual football.</strong> There are plenty of players who perform well for what the team needs but are bad for fantasy scoring. For instance, tight end George Kittle is notorious for having games where he is a blocker instead of a receiver, leading to him having great on-field performances for the 49ers but giving his owners bad fantasy numbers. However, this post is strictly from a fantasy perspective, so even if a player was better than what his box score states, he was still bad as far as fantasy managers are concerned.</p>
+<h2>Methodology</h2>
+<p>PPR, or point per reception, is a very popular scoring system in fantasy football leagues. In fact, every league I've played in uses the PPR system. Consequently, all of the data acquired and analyzed is based on the PPR scoring system. Additionally, I did <em>not</em> include week 18 because most leagues have their championship on week 17. This is because in week 18, many NFL teams do not play their starters if they are locked into their postseason seeds. Therefore, including week 18 would create unnecessary skewing of the data, as some players may pad their stats against backups or may finish with lower totals due to playing less games. <strong>If a player's numbers I state differ from the numbers you have, it's likely because your numbers include week 18.</strong> All of the data is acquired from the <a href="https://www.fantasypros.com/nfl/reports/leaders/" target="_blank" rel="nofollow noopener noreferrer">weekly leaders page from fantasypros.com.</a></p>
+<p>I limited the dataset to players who scored a certain minimum number of total points throughout the season. This ensures the dataset is contained to players managers would realistically start on a fantasy roster. The minimum excludes random WR4s who would never be rostered on fantasy teams and would skew the data. Furthermore, the minimum is low enough to ensure the dataset is not exclusive to top starters. This way the dataset contains bad fantasy players who managers may be forced to start when their drafted players get injured. For instance, Quentin Johnston may not be anyone's ideal starter, but he hit the statistical thresholds so he will be considered in the dataset. Moreover, he was rostered on over 50% of rosters, indicating he was a non-insignificant option for fantasy managers.</p>
+<p>In order to ensure the dataset doesn't contain players who meet the thresholds by playing many garbage time stats, my data only includes players who average a certain number of points per game <em>in addition</em> to meeting the minimum threshold of points. For instance, Will Levis meets the minimum total points threshold, but because he didn't average enough points per game, he was not included in the dataset. Also, he was rostered on roughly 10% of leagues, showing how unlikely managers would start Levis even if their starting quarterback was injured or on bye.</p>
+<p>I didn't want to simply use roster rates as a qualifier, as notable players who suffered season ending injuries would be dropped and consequently have low starting rates. For instance, Stefon Diggs (who does qualify for this dataset based on these thresholds) was a very good fantasy WR when he was starting, but due to his mid-season ACL tear, he ended up being rostered on about 35% of leagues. I wanted to include players such as Diggs, as managers may want to examine his stats based on the games he did play.</p>
+<p>Here are the averages per position:</p>
+<table>
+<thead>
+<tr>
+<th>Pos</th>
+<th>Total</th>
+<th>Pts/G</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QB</td>
+<td>120</td>
+<td>12</td>
+</tr>
+<tr>
+<td>RB</td>
+<td>120</td>
+<td>10</td>
+</tr>
+<tr>
+<td>WR</td>
+<td>120</td>
+<td>10</td>
+</tr>
+<tr>
+<td>TE</td>
+<td>80</td>
+<td>7</td>
+</tr>
+<tr>
+<td>K</td>
+<td>100</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p>These values were chosen based on what I felt was appropriate. I wouldn't ever consider starting a WR who somehow got over 120 points yet couldn't average 10 PPR points per game, since this probably means they were superfluous for virtually the entire season outside of one or two random games where they scored multiple TDs (e.g. Tre Tucker). Note that these values are different per position, as some positions tend to be higher scroing than others. Also note that kickers do not have an average points per game threshold. It's unlikely a kicker could score 100 points with a limited amount of games, so if they scored a total of 100 points, they were a reliably starting an NFL team for a full season (or at least most of the season). Furthermore, I elected to include all 32 defenses, since there is a slim chance a bad defense may be picked up out of desperation and if the defense's opposing offense happens to be terrible.</p>
+<h2>(Case 1) WRs on Different Teams: McConkey and Addison</h2>
+<p>In one of my leagues last year, my friend rostered Ladd McConkey and Jordan Addison. After week 17, both had similar finishes in terms of fantasy production. McConkey scored 224.4 PPR points with a mean of 15 points per game, while Addison finished with 211.5 PPR points with a mean of 15.1 points per game. In terms of average points per game, this would be WR21 and WR20 respectively. Regarding total points, McConkey finished as WR12 that season, while Addison finished as WR20. However, despite ostensibly being similar fantasy producers, McConkey was always in my friend's line-up, while Addison was often on the bench. Why did he rely significantly more on McConkey than Addison?</p>
+<p>The main reason he started McConkey over Addison wasn't because he had better counting stats than Addison, rather it was <em>how</em> he produced his stats. In particular, he claimed he can expect McConkey to consistently give him at least 10 points a week, while Addison was frustratingly mercurial and was just as likely as scoring either over 30 points or less than 5 points. The hypothesis is McConkey finished as a top wide receiver by being a great fantasy weapon on a week-to-week basis, while Addison was statistically a top fantasy receiver due to a few outliers that inflated his aggregate stats. Are these sentiments correct, or does the data contradict them?</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 700px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/127c6c745bb64500668e328b861b0d7b/2b103/jadd-ladd.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 29.142857142857142%; position: relative; bottom: 0; left: 0; background-image: url('data:image/svg+xml,%3csvg%20xmlns=\'http://www.w3.org/2000/svg\'%20width=\'400\'%20height=\'116\'%20viewBox=\'0%200%20400%20116\'%20preserveAspectRatio=\'none\'%3e%3cpath%20d=\'M148%2021c-5%2016-6%2016-11%204l-4-8-5%208%203-3%202-3%202%206%204%208-7%201c-9%200-9%200-6-5s2-5-2%201l-3%204h-8l-10-1h-2l-23%201H57l-3-5-3-4%202%205%202%204H39l-16-1h-4c0-2-3-1-3%201s1%202%2020%202h21l2%204%203%204-2-4-2-4h20c19%200%2020%200%2019%202h2c2-3%204-2%207%201l4%202-2-3-2-2h13l-3%204-5%203v2l6-4%204-5h10c9%200%209%200%2010%203%202%203%203%203%203-1%201-2%201-2%2010-2l35-1-6-1h-6l3-2%204-3-6%202c-3%202-7%203-10%203h-5l-5-13-5-14-5%2014M277%209l-4%2011-3%208h-17c-14%200-16%200-15-2l1-2-3%202c-1%202-2%202-13%202-8%200-12%200-11-1l-1-1c-1%200-2%200-1%201l-1%201-1-1c0-2-4-1-4%201%200%201%201%202%203%202l4%203c2%202%203%202%201-1-1-2-1-2%2010-2l11%201c0%202-6%208-10%209-4%202-4%202-6%200-2-3-3-1%200%202l2%202%205-2c4-2%206-3%208-7l4-5h33c0%204-2%206-7%206l-5%202%201%201%206-2c4%200%205-1%206-3%201-3%201-4%208-4s8%200%208%202l6%205%205%203%202-2%202-3-2%201-2%202-4-2c-8-5-7-6%202-6%207%200%207%200%207%202l-1%203%202-3c2-2%202-2%2035-2l34-1-7-1h-7l5-10%204-11-6%2011-4%2010a324%20324%200%200%201-10-3c-2%200-1%202%201%202%201%201-4%201-13%201h-15l4-4%204-4-3%202c-8%207-7%207-13%204l-4-3-3%202c-1%203-2%203-10%203h-9l-3-10c-5-11-6-12-6-9m-125%204-6%2021h16l-5-12c-3-11-4-11-5-9m123%205-3%209%206%201h7l-3-8c-4-10-4-10-7-2m86%2036a101%20101%200%200%201-37%2010c-3%202-25%208-36%2010l-15%205c-5%203-14%205-26%205l-15%203-16%203-8%201c0%201%2014%200%2025-3l14-2c7%200%2021-3%2027-6l12-4a304%20304%200%200%200%2046-12c12-1%2039-10%2035-12l-6%202m-181-1-15%205c-10%202-14%204-18%207-3%203-6%204-10%205l-9%203c-6%204-16%207-21%207l-10%202-10%202-8%201-11%201c-10%200-18%202-22%204-3%202-6%202-15%202l-11%201%2011%201c9%200%2011%200%2015-2s7-3%2018-4a202%20202%200%200%200%2043-6c8-1%2016-4%2021-7%202-2%207-3%2010-4%205-1%208-3%2014-7l12-5c10-2%2022-7%2019-7l-3%201\'%20fill=\'%2364ffda\'%20fill-rule=\'evenodd\'/%3e%3c/svg%3e'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jadd ladd"
+        title="jadd ladd"
+        src="/static/127c6c745bb64500668e328b861b0d7b/39600/jadd-ladd.png"
+        srcset="/static/127c6c745bb64500668e328b861b0d7b/1aaec/jadd-ladd.png 175w,
+/static/127c6c745bb64500668e328b861b0d7b/98287/jadd-ladd.png 350w,
+/static/127c6c745bb64500668e328b861b0d7b/39600/jadd-ladd.png 700w,
+/static/127c6c745bb64500668e328b861b0d7b/57cd1/jadd-ladd.png 1050w,
+/static/127c6c745bb64500668e328b861b0d7b/4af54/jadd-ladd.png 1400w,
+/static/127c6c745bb64500668e328b861b0d7b/2b103/jadd-ladd.png 1840w"
+        sizes="(max-width: 700px) 100vw, 700px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>On the left (Player A) we have Jordan Addison's fantasy trends, while the right side (Player B) represents McConkey's. The top line graph represents the points the player gained for a particular week (where the gaps represent injuries or bye weeks), while the bottom graph shows the player's running sum of points (i.e. the total points scored over the course of the season). For example, on week 12, the top graph shows McConkey scored 14.3 points that game, and he scored a total of 142.8 points by that point of the season. The top line graph also displays the median points for the season, as well as a gray band representing the 68% confidence interval of the median (although this data is not normally distributed, I thought it'd be interesting to include what is theorhetically within one z-score of the data, and I also thought this would be more useful than showing quartiles over a small sample size).</p>
+<p>You may have observed from the top graphs that while Addison had greater highs than McConkey, he also had greater lows, suggesting he has greater volatility. According to the confidence interval, Addison's points has a (theorhetical) standard deviation of 3 points, somewhat larger compared to McConkey's standard devation of 2.4 points. The Vikings receiver had four games where he scored less than 7 points, and in two of those game he scored less than 5 points. The only time McConkey scored less than 7 points was on week 2, where he scored 4.6 points. Addison did have two games where he scored more than 30 points, something McConkey never achieved (probabilistically Addison did end up being just as likely to score 30+ points or less than 5 points a game). Despite this, McConkey still has a higher median. These two games would also help explain why Addison has a higher mean but lower median than his LA comp.</p>
+<p>Right before the postseason (which starts on week 15 in most leagues), Addison had two games scoring over 30 points. But after removing these top two games, Addison's mean plummets from 15.1 points per game to 11 and he'd go from WR20 to WR44. If one removed McConkey's two best performances, his aggregate stats wouldn't suffer nearly as dramatically. His recalculated mean is 12.8 points a game, and he drops from WR21 to WR34. Also, sandwiched between those games was a dud where he scored less than 10 points, further showcasing his unpredictability. This information meant it wasn't unreasonable for fantasy managers to not rely on him during the postseason. On top of that, by this point of the season managers could be in a deep hole if they started a player who underperformed for many games. As a result, they possibly missed the postseason altogether. On the other hand, from week 11 onward, McConkey scored a minimum of 14 points a week.</p>
+<p>The bottom graphs feature a dotted trend line, which is a line of best fit for the points accumulation line. If a player's points total points line perfectly matches the dashed line, this means they had a perfectly linear rate of growth. Theorhetically, the slope of the line is exactly how many points you know they'll score for any given week. The more a player's total points line deviates from linearity, the more volatile he is. Obviously this will never happen in practice, but the closer a player is to this phenomenon, then the more reliability we can expect.</p>
+<p>We can measure how well the trend line fits to the total points line using the $R^2$ value. An $R^2$ of 1 implies a perfect fit and perfect linearality. Across this dataset, $R^2$ will be generally above 0.9. This is because virtually every player score a positive number of points each week, meaning the cumulative total will almost always increase after the previous week. Therefore, the cumulative line will usually resemble a linearly increasing line anyway. With that being said, one can measure players' relative volatility to each other by comparing how the trend line fits to their totals graph and comparing their $R^2$ values.</p>
+<p>In this particular case, you can observe McConkey's points total matches the trend line well, even overlapping each other in several points. The $R^2$ of the line is approximately 0.984, suggesting relatively low amounts of volatility. In contrast, Addison's running sum graph deviates considerably from a linear rate. The $R^2$ of this line is about 0.936, considerably lower than McConkey's corresponding value. In fact, Addison's $R^2$ of 0.936 is relatively low compared to most players, suggesting he is volatile in general.</p>
+<p>The analytics does suggest that previous intuitions about Addison and McConkey were mostly correct. The analytics, particulalry the $R^2$ values, suggested McConkey has greater fantasy consistency than Addison. In the aggregate, Addison was obstensibly a good fantasy starter, but in practice his volatility was not sustainable to win matchups on a weekly basis. Conversly, while McConkey finished the season with marginally better overall numbers, he helped his owners significantly more than Addison by being a reliable starter on a per weekly basis. Fantasy is about winning the week, not finishing the season with the most points.</p>
+<p>Is Addison's fantasy football inconsistency suggest he's a worse wide receiver than McConkey? Not necessarily, he just happens to be the second option to arguably the best wide receiver in football right now: Justin Jefferson. If Jefferson is not a viable option for a play, then Addison will do a strong job as a second read. It just so happens that Jefferson is almost always a viable option on every play because he's Justin Jefferson. Addison's role is great for the Vikings, just not for your fantasy team.</p>
+<p>The Vikings' quarterback did not need to deviate often from his primary option in Jefferson, but the Chargers' quarterback had to significantly rely on McConkey due to LA's other wide receivers being subpar. Additionally, the person throwing McConkey the ball is Justin Herbert, who has some of the highest career counting stats amongst his contempararies and is widely considered to be one of the NFL's best active quarterbacks. If McConkey is the primary target every week for a top quarterback, then it'd follow that McConkey would also be a reliable option in fantasy football as well. It's very possible that if the situations between Addison and McConkey were swapped, Addison would have match, if not surpass, McConkey's fantasy reliability and production.</p>
+<p>So if teams double cover Jefferson, then in theory this would allow Addison to receive more targets due to less defensive focus on him. Is this true?</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 700px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/e0b30721bf94424454da4428e6a45e59/d0a5a/jadd-jeff.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 30.28571428571429%; position: relative; bottom: 0; left: 0; background-image: url('data:image/svg+xml,%3csvg%20xmlns=\'http://www.w3.org/2000/svg\'%20width=\'400\'%20height=\'121\'%20viewBox=\'0%200%20400%20121\'%20preserveAspectRatio=\'none\'%3e%3cpath%20d=\'m164%2012-5%2013c-3%2012-3%2012-6%2012s-3-1-7-8l-4-7-5%208-4%207H59l-1-3-3-3%201%203%201%202-39%201c-1-1-1%202-1%205%200%206%200%207%202%207l2%201h2a171%20171%200%200%201%2043%200l13-1c10%200%2012%200%2016%203l4%202%202-2c3-4%2015-4%2018-1l1%202%202-2c3-2%204-2%2042-2h39v-6c0-6%200-6-2-6l-3-1h-3l-12%201h-9l-5-13c-4-13-5-14-5-12m214%209-6%209-5-7-5-6-5%207-4%207h-54a309%20309%200%200%201-67-2c-2%203-5%203-5%202s-1-2-3-2c-4%201-5%201-5%206v3l22-1a111%20111%200%200%201%2026%201l23-1h23l3%205%203%204%206-3c7-3%206-3%206-4l-6%203-5%202-3-3-2-3%2017-1%2017%201-4%206-4%206-5-5-5-3%205%205%205%205%202-3%206-8%202-4h24l24%201v-4c0-3%200-3-3-3-4%200-4%200-8-10l-5-9c0-1-3%203-5%209m0%201-4%208%208%201c8%200%208%200%207-2%200-3-6-15-6-15l-5%208m-217%203c-4%2013-4%2012%204%2012l7-1-7-21-4%2010m228%2035-10%204-12%205c-4%200-8%202-9%203l-5%201c-2-1-2-1%200%200s-7%204-16%205c-10%200-23%203-42%208a224%20224%200%200%201-36%207%20418%20418%200%200%200-4%203c4-2%209-3%2017-4%204%200%2014-2%2023-5l40-8c8%200%2017-3%2021-5l14-5%2010-3c-2%200%204-3%209-4l5-2v-1l-5%201m-197%202-16%205c-9%202-14%204-16%206l-5%203-2%201c1%201%200%202-6%202a72%2072%200%200%200-7%201c-2%200-2%200-1%201%204%202-17%2010-25%2010l-10%202c-8%202-22%204-26%203-2%200-2%200%200%201%201%201%201%201-1%201-5-1-22%201-27%204-4%202-6%202-16%202l-12%201c0%202%2019%202%2024%200l5-1%201-1a541%20541%200%200%200%2063-11c8-1%2015-3%2022-7l11-4c5-1%208-3%2014-8l8-3%2027-9c2-1-1-1-5%201M72%2086a1080%201080%200%200%200%204-1H26l46%201\'%20fill=\'%2364ffda\'%20fill-rule=\'evenodd\'/%3e%3c/svg%3e'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jadd jeff"
+        title="jadd jeff"
+        src="/static/e0b30721bf94424454da4428e6a45e59/39600/jadd-jeff.png"
+        srcset="/static/e0b30721bf94424454da4428e6a45e59/1aaec/jadd-jeff.png 175w,
+/static/e0b30721bf94424454da4428e6a45e59/98287/jadd-jeff.png 350w,
+/static/e0b30721bf94424454da4428e6a45e59/39600/jadd-jeff.png 700w,
+/static/e0b30721bf94424454da4428e6a45e59/57cd1/jadd-jeff.png 1050w,
+/static/e0b30721bf94424454da4428e6a45e59/4af54/jadd-jeff.png 1400w,
+/static/e0b30721bf94424454da4428e6a45e59/d0a5a/jadd-jeff.png 1716w"
+        sizes="(max-width: 700px) 100vw, 700px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>An ad-hoc comparison using Tableau suggests this is not necessarily the case. Other than week 12, in weeks where Addison performed strongly, Jefferson also had a good game. The correlation between the two players is 0.2318, which implies they actually rely on each other to produce, although the value is not strong enough to make that conclusion. Therefore, it's hard make this assumption, at least for this particular case. Then again, this case is a bit of an outlier, since Jefferson is an anamoly himself. For our next case, we'll be examining a different team that has two top-tier wide receivers.</p>
+<h2>(Case 2) WRs on the Same Team: AJ Brown and DeVonta Smith</h2>
+<p>DeVonta Smith is another example of a player I considered to be good but volatile as a fantasy asset. I rostered him every season from 2021-2023 and recalled he would either drop a donut or 30 points. This year I chose not to avoid such players and did not draft him in any of my leagues. This year, my friend who rostered him occassionally complained of his inconsistency as well. I thought Hurts often overlooked him in favor of his favorite target, AJ Brown. I speculated that AJ Brown's high volume stats were a result of him consistently being targeted, while DeVonta Smith was prone to being relegated to being a decoy or overlooked due to Brown having a better game. Both ended the season with similar fantasy numbers, with Brown finishing as WR20 with 216.9 points and an average of 16.7, while Smith finished as WR27 with 199.4 points and an average of 15.3 points per game.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 700px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b86f3ade5ea32277a795c43df19c1920/368cb/ajb-dvs.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 29.142857142857142%; position: relative; bottom: 0; left: 0; background-image: url('data:image/svg+xml,%3csvg%20xmlns=\'http://www.w3.org/2000/svg\'%20width=\'400\'%20height=\'117\'%20viewBox=\'0%200%20400%20117\'%20preserveAspectRatio=\'none\'%3e%3cpath%20d=\'m159%2018-3%208h-9l-9%201-3-6-4-6%201%205c4%206%204%206-2%206h-4c2-2%204-8%204-9l-3%204-3%205H86l-2-2c-2-3-12-10-13-9l5%204%206%205c1%202%201%202-30%202l-31-1-2-1-1%202v1l-1-1c0-3-3-2-3%200-1%202%200%202%2036%202h36l4%205%204%204-3-5-3-4h21l-3%206c-6%2010-6%2010-7%208-2-1-3%200-1%202s3%201%208-7l5-8%204%203c5%204%206%204%208%200s2-4%208-4%206%200%208%204c1%203%2011%2010%2013%209l2-7%203-5%2011-1c10%200%2011%200%2011%202l3%203-1-4%203-1%203-1-4-1c-3%200-3%200-7-6-3-6-4-7-8-8-6-2-7-2-9%206m207-6c-9%2023-10%2024-15%2011l-4-9-5%209-5%209h-47l-1-2c-2-3-7-5-11-5l-3%204-1%203h-23c-22%200-24%200-26-2-4-3-5-3-2%200%201%202%201%202-6%202h-7l3-3c4-3%204-3-2-1-2%201-4%202-3%203l-2%201c-2%200-3%201-3%202s3%202%203%200h4l23-1h24l4%2010c5%2010%206%2011%208%208l3-10%203-8h14l3%209%205%208%2010-6-5%202c-5%203-5%203-9-6l-3-7h23l23%201h2c0-2%2016-2%2016%200l1%204c2%201%202%201%203-2s2-3%208-3h7l-7-1h-6a267%20267%200%200%201%207-21l-1%201m-206%206-2%207%2010%201%209-1-3-5c-2-5-3-6-7-7l-5-1-2%206m185%201-4%208-2%205h14l-2-5-3-8-2-3-1%203m-206%209c0%203%203%206%207%209%205%202%205%202%207-4l2-5h-16m120%206%204%209c4%209%204%2010%208-3l2-7h-7l-7%201M158%2065c-3%202-11%204-17%205l-16%205-10%203-11%203-9%202c-5%200-15%203-27%208l-9%204H38l-20%201h42l8-3c10-5%2017-7%2027-8%2010-2%2025-6%2031-9l15-4c11-2%2017-4%2023-8%205-3%201-2-6%201m180%205c-4%202-12%204-22%204-16%200-30%202-40%207l-13%203-11%202-15%202c-10%200-14%201-23%205l-7%203%2010-3c8-3%209-3%2020-4l16-1%209-2c3%200%208-1%2015-4%2010-5%2015-5%2040-7%2014-1%2024-3%2024-5h-3\'%20fill=\'%2364ffda\'%20fill-rule=\'evenodd\'/%3e%3c/svg%3e'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="ajb dvs"
+        title="ajb dvs"
+        src="/static/b86f3ade5ea32277a795c43df19c1920/39600/ajb-dvs.png"
+        srcset="/static/b86f3ade5ea32277a795c43df19c1920/1aaec/ajb-dvs.png 175w,
+/static/b86f3ade5ea32277a795c43df19c1920/98287/ajb-dvs.png 350w,
+/static/b86f3ade5ea32277a795c43df19c1920/39600/ajb-dvs.png 700w,
+/static/b86f3ade5ea32277a795c43df19c1920/57cd1/ajb-dvs.png 1050w,
+/static/b86f3ade5ea32277a795c43df19c1920/4af54/ajb-dvs.png 1400w,
+/static/b86f3ade5ea32277a795c43df19c1920/368cb/ajb-dvs.png 1829w"
+        sizes="(max-width: 700px) 100vw, 700px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>In this particular season, the graphs show they are quite similar production and consistency wise. They have a very similar median (Brown with 15.9 and Smith with 15.4), both had a similar number of high-scoring games (Brown with 5 games scoring 20+ points while Smith had 4 such games) and a similar number of low-scoring games (Smith had 3 games where he scored less than 10 points, Brown had 2 games). In terms of their $R^2$ for their trend lines, Brown had a value of 0.960 while Smith had a value of 0.956. Brown had a standard deviation of about 4.1 points, while Smith's was 3.6 points, suggesting Smith is actually <em>more</em> reliable than Brown.</p>
+<p>The data suggests I was wrong in this case for this year. A current limitation of this dataset is it's limited to the 2024 season, so perhaps I was correct in the other seasons. Nonetheless, for this year's draft, Brown's average draft position (ADP) is around pick 14. Meanwhile, Smith's ADP is around 61. This may be because Brown was viewed as the Eagles' reliable WR1 while Smith was a secondary option who is prone to games where Brown has all of Hurts's attention. However, the viz suggests that this was a bias, as the metrics show their consistency and productiion are comparable. Anyone who drafted Smith in the middle rounds had an undervalued player, but those who drafted Brown significantly earlier received only marginally better production from his counterpart. It should also be worth noting that in the games where one player was absent but the other was healthy (e.g. weeks 2-3 where Brown was out and weeks 12-13 where Smith was out), they filled the other's role well fantasy-wise.</p>
+<p>One may have the idea that they should start games where defenses have an emphasis on covering Brown but leaving Smith open. However, the correlation of -0.02878 suggests this is not the case, and that their performances are generally independent of each others. As a result, the strategy of starting Smith in weeks where you suspect Brown would underperform is not necessarily viable.</p>
+<p>I postulated that the two's stats were so connected because they were both dependent on the Eagles' emphasizing the passing offense or the running attack depending on the week. I suspected in weeks where the Eagles faced strong pass defenses, the running attack would carry the load, therefore shutting down both Brown and Smith. Similarly, I thought when the opposing rushing defense would shut down Saquon, it would open up the receivers to have a strong game. Once again, this was not necessarily true, as the correlation of points between Saquon Barkley and AJ Brown is 0.01405. The correlation between Saquon and Smith is -0.2498, suggesting Smith may underperform when Saquon has a good game and vice versa. Nonetheless, the correlations are not strong enough to assume Philadelphia's run game and passing offense are indirectly related.</p>
+<h2>(Case 3) Re-Contemplating the Draft Based on Two Fantasy Players: Jahmyr Gibbs and De'Von Achane</h2>
+<p>By this point of this post, you've probably deduced that my answer to the opening question is "I'd rather have the reliable 15 point player than the unpredictable boom-or-bust player". In this year's league, I inadvertenly ended up with the latter, but this player got me to the championship. Unfortunately, he also costed me the championship.</p>
+<p>You can almost rephrase this post's opening question to "would you rather have Jhamyr Gibbs or De'Von Achane?" Both have similar medians, and in PPR leagues Gibbs finished as RB2 in total points while Achane was RB5. Gibbs was a late first or early second round pick in many leagues, but I acquired Achane early in the third round in two different leagues. It may seem like I obtained better value with Achane, it's possible I would've been better off with Gibbs.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 700px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/0ce1f2d20d24b3fa34a4b11a1ca12aeb/f0425/achane-gibbs.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 28.57142857142857%; position: relative; bottom: 0; left: 0; background-image: url('data:image/svg+xml,%3csvg%20xmlns=\'http://www.w3.org/2000/svg\'%20width=\'400\'%20height=\'114\'%20viewBox=\'0%200%20400%20114\'%20preserveAspectRatio=\'none\'%3e%3cpath%20d=\'m102%2018%203%208H87l2-4%202-5v-1l-3%205-3%205H34l-2-6c-3-7-3-8-5-5v1c1-1%202%200%203%204%203%206%203%206-3%206-5%200-6%200-6-2h-1v1l-1%201-2-1-2-1-1%202c0%202%201%202%2010%202h9l3%206%203%208%2021%208c0-1-6-4-13-6-7-3-8-3-10-9l-2-6%2024-1h25l-2%206c-4%207-2%207%201-1l3-5h20l1%205c3%208%203%208%208%201l5-6h15c14%200%2015%200%2020%203%207%204%207%204%209%200%201-3%201-3%206-3h6l3%209c1%205%202%209%203%208l-2-9-3-8h5c7%200%206-2%200-2h-5l-3-7-2-8-5%207-3%208h-10c-17-1-21-2-35-1l-13%201-2-8-4-8%202%208m160%200-3%208h-25l-25-1v-1l-2%201h-1c0-3-4%200-4%203h5c5%200%205%200%202%201s-3%201%203%201l10%201c3%201%205%200%208-1%205-2%2028-3%2028-1l-2%204v4l2-4%202-5h9c7%200%209%200%2011%202l4%202-1-2c-2-2-2-2%209-2l11%201v1l2-1%207-1h7l3%205%203%206%206-6-3%201-3%203-2-4c-3-5-3-5%204-5%205%200%206%200%205%201-2%202-1%203%201%201%203-2%204-2%2020-2l17-1-17-1c-16%200-16%200-14-2%202-3%201-3-2%200-2%202-3%202-10%202-8%200-8%200-9-3-2-4-2-4-8-1l-4%204h-29l-5-8-6-8-4%208m3-4a505%20505%200%200%201-4%2012h14l-5-7c-3-6-4-7-5-5m-95%2043-36%2011a566%20566%200%200%201-37%2010c-11%206-19%208-37%209l-24%201c-5%201-19%206-18%207l6-2c8-3%209-3%2033-4l23-2%209-4%2016-6a474%20474%200%200%200%2062-18l10-2%205-1c0-2-7-1-12%201m181%202a295%20295%200%200%201-51%2014%201198%201198%200%200%201-53%2014c-12%200-49%209-39%209l5-1a215%20215%200%200%201%2044-8%2021472%2021472%200%200%201%2030-9%20306%20306%200%200%200%2036-9c8-1%2046-14%2041-14l-13%204\'%20fill=\'%2364ffda\'%20fill-rule=\'evenodd\'/%3e%3c/svg%3e'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="achane gibbs"
+        title="achane gibbs"
+        src="/static/0ce1f2d20d24b3fa34a4b11a1ca12aeb/39600/achane-gibbs.png"
+        srcset="/static/0ce1f2d20d24b3fa34a4b11a1ca12aeb/1aaec/achane-gibbs.png 175w,
+/static/0ce1f2d20d24b3fa34a4b11a1ca12aeb/98287/achane-gibbs.png 350w,
+/static/0ce1f2d20d24b3fa34a4b11a1ca12aeb/39600/achane-gibbs.png 700w,
+/static/0ce1f2d20d24b3fa34a4b11a1ca12aeb/57cd1/achane-gibbs.png 1050w,
+/static/0ce1f2d20d24b3fa34a4b11a1ca12aeb/4af54/achane-gibbs.png 1400w,
+/static/0ce1f2d20d24b3fa34a4b11a1ca12aeb/f0425/achane-gibbs.png 1841w"
+        sizes="(max-width: 700px) 100vw, 700px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>Gibbs is essentially the perfect fantasy players. In his <em>worst</em> game he scored 10.4 PPR points, and he had six games where he scored over 20 points. The $R^2$ for his linear trend line is 0.99, suggesting minimal voaltility as he accumulates fantasy points. You can basically use the slope to reliably predict how many points Gibbs will earn you each week. Additionally, his confidence interval band is very narrow, as he has a standard deviation of just 1.9 from the median. All of the analytics indicate Gibbs is a high-end player with low amounts of unpredictability. He's virtually guaranteed to be an elite contributor to your fantasy teams every week.</p>
+<p>In contrast, you've probably observed that Achane had some brutal struggles. Whereas Gibbs had no games scoring less than 10 points, Achane had four such games. His standard deviation of weekly points is approximately 4, over double of Gibbs's corresponding value. His $R^2$ for his trend line is about 0.969, suggesting that he isn't egregiously inconsistent on a weekly basis, but is still significantly less reliable than Gibbs.</p>
+<p>Achane's dismal weeks can be attributed to the absence of his team's starting quarterback, Tua. During the weeks Tua was healthy, he averaged a remarkable 22.2 points a game, well above Gibbs's mean of 19.8 points per game. However, in weeks where Tua was out, Achane averaged a horrendous 6.74 points per game, including 5.8 on championship week. Why was this <em>running</em> back so bad without his starting <em>passer</em>? Despite finishing as RB5, he rushed for less than 800 yards from weeks 1 to 17. Every other top 15 running back rushed for at least 900 during this period, and 11 of them rushed for at least 1000 yards. How did Achane rank so highly among running backs? He had 78 receptions and 592 receiving yards, by far the largest receiving volume stats among all running backs, hence why he was a potent weapon in <em>full PPR</em> leagues. Since Tua was the only Dolphins quarterback who targetted him, it was not a fun time for Achane owners when Tua was not playing.</p>
+<p>In one league, my previous two picks before Achane were CeeDee Lamb and Josh Jacobs. Both were reliable and huge scorers for my team (although CeeDee was out during championship week). Moreover, I also had David Montgomery (who was great until his season-ending injury right before playoffs) and Tyrone Tracy (who was also solid every week except for championship week, incidentally). In this league I was able to afford the risks with Achane and benefited more from his high-reward nature than relying on Gibbs's reliability. Achane did have higher highs than Gibbs and, on average, was better with a healthy Tua. Achane was certainly a huge part in me making the championship. However, being forced to start him on championship week costed me the final win (although to be fair this is mostly me exaggerating, as I was dealing with a myriad of other injuries as well).</p>
+<p>Additionally, in my other league, my first round pick was Ja'Marr Chase and my second round pick was Isaiah Pacheco. I was completely doomed when Pacheco suffered a season ending injury on week 2. My other running back was Connor, who was good but was also prone to struggling on several weeks. Being forced to start Connor and Achane made my running back room completely perilous. This lack of running back depth caused me to miss playoffs altogether.</p>
+<p>So what's the strategy for next year's draft? Should I pick Gibbs in the first round at the expense of other temtping early round prospects, or should I take another gamble on Achane later in the third round after acquiring good players with my previous picks?  I would draft Achane again in the third round, especially if I have a deeper and more reliable running back room outside of Achane. However, I'd still be a little wary, since the additional injuries to my other running backs essentially forced me to start Achane without Tua. Surely I won't be <em>as</em> unlucky with injuries next year, right? Maybe I should just draft Gibbs to be safe, after all I was the one who kept talking about minimizing risk. At the same time, the upside with Achane was amazing...</p>
+<h2>(Case 4) Positional Value: TEs vs Kickers</h2>
+<p>This viz also allows you to compare two different positions' weekly averages. In this particular case, I wanted to study the differences between tight ends and kickers. I saw a video by Brandon Carney where he complained about how tight ends are becoming less valuable than kickers (for fantasy managers) and I wanted to see if the data empirically supports this. Is a good kicker more valuable than a good tight end?</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 700px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/7553834ca16a4e0b883f58dd9cc2a62e/70728/te-k.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 27.999999999999996%; position: relative; bottom: 0; left: 0; background-image: url('data:image/svg+xml,%3csvg%20xmlns=\'http://www.w3.org/2000/svg\'%20width=\'400\'%20height=\'112\'%20viewBox=\'0%200%20400%20112\'%20preserveAspectRatio=\'none\'%3e%3cpath%20d=\'m113%2013-1%2016v14h-5c-4%200-5%200-5-2h1c0%202%207%201%207%200%200-2-3-3-3-1h-1l-2-1-2-2c0-2-1-2-5-2h-5V20H82v9h-5c-4%200-5%200-5%202s-1%202-5%202l-5-1-5-1h-5v14h-5l-4-1h4l3-1c0-3-7-2-7%200-1%201-1%200-1-2%200-3%200-3-3-3s-3%200-1-1c3%200%202-2-1-2s-4%201-4%204c-1%203-1%203-6%203h-4v5l-1%205-2-1c0-1-1-2-3-2h-4v38h15c11%200%2014-1%2014-2s6-2%209-1l1-4v-5h4c5-1%207%201%207%204%200%202%201%202%204%202l3-1h1c1%201%201%200%201-3v-4h5l5-1%204-1c3%200%204%200%204-2%200-4%202%203%202%208v5h4c5%200%205%201%200%201-5%201-5%203%201%203h5v-4c0-4%200-4%203-4%206%200%207%201%207%206v5h10l-5%201c-6%201-5%202%200%203l5-1V74l5%201%205-1c0-1%201-2%204-2%205-1%206%200%206%203a787%20787%200%200%201%2034%203h5V20h-9v17h-10v4l-1%203c-1%200-2-1-1-2l-9-1h-9l4-1%204-1-2-1c-6%201-6%201-6-8v-8h-5c-3%200-5%201-5%202-1%201-10%202-10%200l4-1%204-1-4-1c-4%201-4%201-4-3%200-2%200-3-2-3-1%200-2%200-1-1%202-1%201-2-2-2l-4%201m82%2032%201%2028%202%201c3%200%204-1%205-3%201-1%201-1%201%201s1%202%206%202l7%201v11c0%202%200%202%203%202l4-1h1c0%205%202%201%202-3v-6l5%201c5%200%205%200%205-3l1-2c6-1%2011%200%2011%202l3%201c5%200%207%201%207%203s8%201%208-1c1-1%201-1%201%201s0%202%201%200c0-3%201-4%205-4%205%200%207%201%207%203s7%201%207-1l1-2v2c0%203%2010%203%2010%200h1c0%203%202%202%202%200%200-3%200-3%206-3%204%200%205%200%205%202h21v7h10V74h3l5-1%204%204c0%204%206%203%207%200%201-1%201-1%201%201l1%202%201%202c0%202%201%202%205%202h5V44h-10l4-1%205-1-3-1c-6%200-6%200-6-5v-5h-5c-6%200-6%200-6%203s0%203-5%203h-5v13h-6c-5%200-5%200-1-1%206%200%206-2%201-2h-5v-4l-1-5v-1c0-2-1-2-4-2-4%200-5%201-5%202-1%201-1%200-1-2v-4h-5c-5%200-5%200-5%203%200%202-1%203-6%203l-5%201-5%201h-6v10h-5c-5%200-6%200-6-2s-1-2-5-2l-5-1h5l4-1c0-2-4-2-5-1h-1l-1-1c-2%200-2-1-2-5v-5h-5c-6%200-6%200-6%203%200%202%200%202-5%202h-5l4-1c3%200%205-1%205-2%200-2-9-1-9%201l-1-2c-1-4-1-4-6-4-6%200-6%203%200%203s6%201%201%201l-5%201-1%201-1-1-2-2c-3%200-3%203%200%203%202%201%202%201-1%201l-3-1v-1l1-1-2-1-1%202v1l-1%208v9h-11V31h-10l4-1c6%200%206-2%201-2h-5V16h-11v29\'%20fill=\'%2364ffda\'%20fill-rule=\'evenodd\'/%3e%3c/svg%3e'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="te k"
+        title="te k"
+        src="/static/7553834ca16a4e0b883f58dd9cc2a62e/39600/te-k.png"
+        srcset="/static/7553834ca16a4e0b883f58dd9cc2a62e/1aaec/te-k.png 175w,
+/static/7553834ca16a4e0b883f58dd9cc2a62e/98287/te-k.png 350w,
+/static/7553834ca16a4e0b883f58dd9cc2a62e/39600/te-k.png 700w,
+/static/7553834ca16a4e0b883f58dd9cc2a62e/57cd1/te-k.png 1050w,
+/static/7553834ca16a4e0b883f58dd9cc2a62e/4af54/te-k.png 1400w,
+/static/7553834ca16a4e0b883f58dd9cc2a62e/70728/te-k.png 1839w"
+        sizes="(max-width: 700px) 100vw, 700px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>The left graph represents the calculations of all qualified tight ends, while the right graph contains the same values but for kickers. The graph displays the mean amount of points scored by a selected position for each week and also displays what is plus or minus one standard deviation from the average. Additionally, the dashed horizontal line is the position's mean weekly points average throughout the season, with the yellow number on the rightmost end of the graph displaying the value. For example, quarterbacks averaged 17.864 points a week in the 2024 season.</p>
+<p>By the end of the season, tight ends did score more on average than kickers. Tight ends averaged about 10.06 points a week, while kickers averaged 8.86 points a week. Compared to other skill positions, the tight ends' average of about 10 points a week is significantly lower. Wide receivers averaged 14.4 points and the mean for running backs is 15.22. Moreover, the difference between the averages of tight ends and kickers (1.2 points) is rather slim.</p>
+<p>Additionally, the notion that kickers were better contributors than tight ends for fantasy managers is actually true for a few weeks early in the season. In weeks 1, 2, and 4, the average kicker scored more points than the average tight end in a full PPR league. There are still several weeks where they scored a similar amount of points, such as weeks 5-7, weeks 9-11, and weeks 15-16.</p>
+<p>The highest point average kickers achieved was on week 1 where the position averaged 11.83 points. For reference, the lowest aggregate average for wide receivers was 10 points on week 7, while the lowest for running backs was 12.4 points on week 17. The point is that other skill positions at their worst will almost always score more than kickers, while tight ends are often on par with kickers.</p>
+<p>In terms of volatility, kickers generally have lower standard deviations than tight ends. Across each week, kickers have a standard deviation of around 4-5 points, and tight ends have a larger standard deviation of 5-8 points. Let's define a "bad" player as one who is one standard deviation below average, while a "good" player is one standard deviation above the average. Bad kickers can still score about 3-4 points, but bad tight ends can score as few as 1 point. Week 11 was particularly volatile, as bad tight ends scored <em>negative</em> 0.5 points. No other positions (outside of DST) come even close to reaching negative values. Because kickers are less volatile, a bad kicking performance is not significantly worse than an avergae kicking performance. A bad game with a tight end, however, is dramatically worse than an average tight end.</p>
+<p>So are kickers better than tight ends for fantasy? Should one draft a kicker before they draft a tight end? Strictly based on the analytics, it would appear this is not the case. However in practice, because of kicker's low positional volatility, owners are willing to frequent replace their kickers. The difference between a bad kicker and a good kicker will generally be about 7-9 points. This is obviously not ideal, it is possible recover from this defecit. Furthermore, if many other managers are dropping their average kicker, then the supply of start-able kickers will be abundant.</p>
+<p>Conversly, being stuck with a bad tight end can be devastating. If you have a bad tight end while your opponent has a good one, then the difference in points can be around 11-15 points. This is a significantly deeper hole compared to the hole from the disparity of kicking performances. As a result, managers tend to avoid dropping tight ends, since settling with a mediocre tight end is better than taking a risk in the volatile tight end market. So if you have a bad tight end, you're stuck with them unless you find a gem in waivers (e.g. Sam LaPorta in 2023).</p>
+<p>In conclusion, tight ends should not be a high priority in drafts due to the fact that, on average, they barely outperform a highly replaceable position. However, finding one who is not terrible and can be relatively reliable is crucial, as being stuck with a bad tight end can perpetually harm your roster. This is easier said than done after the draft, due to the fact that finidng a tight end who can score an average amount of points is significantly less likely than finding an average kicker. I recommend drafting tight ends after every other position is addressed, and honestly you might be better off drafting back ups for running backs and wide receivers before drafting a tight end. With that being said, you don't want to be stuck with a frustratingly inconsistent one.</p>
+<h2>Conclusion</h2>
+<p>In case you don't recall, here are the four questions I posed before these case studies:</p>
+<ol>
+<li>How can we determine which players are a more reliable start compared to each other?</li>
+<li>Which players can we expect to be reliable?</li>
+<li>Are these examined players genuinely volatile, or have we created a bias against them?</li>
+<li>Is it worth it to draft in a way to minimize volatilty and maximize points? If so, what are the most effective strategies?</li>
+</ol>
+<p>With the first case of McConkey and Addison, the Tableau viz has shown stats that indicates which wide receivers may be more likely to be reliable and consistent fantasy assets compared to other wide receivers. This addressed the first question, as using values such as standard deviation and the $R^2$ of the trend line can summarize how much more reliable one player is than the other. It also attacks the third question. In this particular case, the analytics empirically support the notion that Addison is indeed volatile for fantasy.</p>
+<p>Regarding the second question, "Which players can we expect to be reliable?", this case has also given us a potential answer to this dilemma. We consider "reliable" players to be ones who are definitively low risk but still have strong upside. Based on this case, the most likely way to acquire such a player is to find receivers who are the primary option for any given game AND will be accompanied by good quarterback performance. Also, the case between Achane and Gibbs also showed that running backs who rely on receptions for PPR points will be less reliable than running backs who are pure rushers, especially if the former's quarterback gets injured.</p>
+<p>With that being said, the case between DeVonta Smith and AJ Brown provides a contrasting answer to the third question, where the data has contradicted our biases against players. Some players perceived to be an unreliable secondary option may not necessarily be more volatile than the primary receiver. Additionally, the correlation of scoring between Smith and Brown is not significant. Therefore, it's hard to predict which receiver will have a good game or which one will have a bad game, which is not a useful answer for the second question. This can make their reliabilty more suspect, particularly Brown's, who was seen as the "safer" choice due to him being favored more by his quarterback than Smith. However, the viz has also suggested this is not the case.</p>
+<p>On the bright side, this case still provided valuable insight for drafting decisions regarding these two players. While AJ Brown is usually drafted significantly earlier than DeVonta Smith, the viz has shown they are comparable in both reliability and production, meaning AJ Brown's ADP may be overvaluing him, while Smith's ADP may be undervaluing him. Information like this can provide guidance for managers' difficult drafting decisions, as well as help them devise better strategies than relying on ADP and social media narratives.</p>
+<p>The fourth question in particular is difficult to address. We have discussed some strategies that may minimize volatility, such as by drafting a player we know will always provide great box score players, or by trying to expand our depth. However, we sitll can't conclude which one would have increased my odds of success. On the one hand, if I had drafted "safely", then I could've had greater fantasy success. On the other hand, if I didn't take a risk on Achane, I also wouldn't have had the success I did experience. Additionally, while I did theorhetically have the depth to hedge the risks with Achane, I ended up losing the depth due to injuries.</p>
+<p>This case study do not give definitive answers to the previous quesitons I posed. However, they provide new ideas and examples on how one can use these analytics to help answer questions they may have about a player's fantasy potential, as well insight into fantasy football in general. One can use this viz to help their decision making rather than relying on pre-conceived conclusions.</p></div></main><footer class="footer__StyledFooter-sc-1jfesyl-0 fdCDgy"><div class="footer__StyledSocialLinks-sc-1jfesyl-1 cORgon"><ul><li><a href="https://www.linkedin.com/in/eric-chu02" aria-label="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li><li><a href="https://www.instagram.com/eric.chu02/" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li><li><a href="https://github.com/chue02" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li></ul></div><div class="footer__StyledCredit-sc-1jfesyl-2 eYqJx"><a href="https://github.com/bchiang7/v4" target="_blank" rel="noreferrer"><div>Original design built by Brittany Chiang</div></a></div></footer></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-169011330-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/analytics/fantasy-trends";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-bee7cb5f34ba85891e49.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-f97ad7d830cfcabb74ef.js"],"component---src-pages-404-js":["/component---src-pages-404-js-e677eb2f34f903512ba5.js"],"component---src-pages-analytics-index-js":["/component---src-pages-analytics-index-js-0ecd23f2c4d9222f32b6.js"],"component---src-pages-analytics-tags-js":["/component---src-pages-analytics-tags-js-b44f1239ddf3717feafc.js"],"component---src-pages-index-js":["/component---src-pages-index-js-945c23f0820fe8b419f5.js"],"component---src-pages-opinions-index-js":["/component---src-pages-opinions-index-js-2ef94ea848fdd3b4940b.js"],"component---src-pages-opinions-tags-js":["/component---src-pages-opinions-tags-js-be74a459411cadb5e795.js"],"component---src-pages-portfolio-js":["/component---src-pages-portfolio-js-679a96c493b3daa4f339.js"],"component---src-pages-skills-courses-js":["/component---src-pages-skills-courses-js-95d1a50c7a8b5a76ac8b.js"],"component---src-pages-skills-index-js":["/component---src-pages-skills-index-js-4d406e173ede758e2ec7.js"],"component---src-pages-skills-skillset-js":["/component---src-pages-skills-skillset-js-9fe0dad86ffdbad21787.js"],"component---src-templates-post-js":["/component---src-templates-post-js-4d4f8bab7505c9e75acb.js"],"component---src-templates-tag-js":["/component---src-templates-tag-js-28fe40b8dc23f56fb630.js"]};/*]]>*/</script><script src="/component---src-templates-post-js-4d4f8bab7505c9e75acb.js" async=""></script><script src="/8cfc05f7e612149819ce77eeb6f87f7390b95c6b-b4f2f4456f7add030c74.js" async=""></script><script src="/dac4ca1958d7374e2f2876e2efd0f31b2f3ba791-378593f47be881068a1d.js" async=""></script><script src="/3583f7347238c3587039405d64694a23e72b5b60-e0912aef2d2b09e54137.js" async=""></script><script src="/app-bee7cb5f34ba85891e49.js" async=""></script><script src="/framework-5ed3be7e33073f87ee7a.js" async=""></script><script src="/webpack-runtime-fa555614c0f20140dde7.js" async=""></script></body></html>

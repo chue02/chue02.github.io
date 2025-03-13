@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/analytics/tags/pandas/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"How Effective is Wink Martindale's Blitzing Strategy?","description":"Wink Martindale's defenses are notorious for his high blitz rate. Are they effective despite or because of this tendency? This project will look into the analytics of the effects of blitzing on defenses.","date":"2024-10-11T12:00:00.000Z","slug":"/analytics/blitz-analysis","tags":["Pandas","MatPlotLib","Football","Giants"]}}}]}},"pageContext":{"tag":"Pandas"}},
+    "staticQueryHashes": ["3539500889","604461682"]}

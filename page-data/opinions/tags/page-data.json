@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-opinions-tags-js",
     "path": "/opinions/tags/",
-    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"Football","totalCount":1},{"fieldValue":"Giants","totalCount":1},{"fieldValue":"NFL","totalCount":1}]}},"pageContext":{}},
+    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"Fantasy","totalCount":1},{"fieldValue":"Football","totalCount":2},{"fieldValue":"Giants","totalCount":1},{"fieldValue":"MatPlotLib","totalCount":1},{"fieldValue":"Pandas","totalCount":1},{"fieldValue":"Tableau","totalCount":1}]}},"pageContext":{}},
     "staticQueryHashes": ["3539500889","604461682"]}

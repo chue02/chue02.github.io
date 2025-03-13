@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/analytics/tags/tableau/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Case Studies of Reliability in Fantasy Football","description":"How can we track player consistency in fantasy football?","date":"2025-03-12T12:00:00.000Z","slug":"/analytics/fantasy-trends","tags":["Football","Fantasy","Tableau"]}}}]}},"pageContext":{"tag":"Tableau"}},
+    "staticQueryHashes": ["3539500889","604461682"]}
