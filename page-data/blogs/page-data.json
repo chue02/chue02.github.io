@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-opinions-index-js",
-    "path": "/opinions/",
+    "componentChunkName": "component---src-pages-blogs-index-js",
+    "path": "/blogs/",
     "result": {"data":{"allMarkdownRemark":{"edges":[]}},"pageContext":{}},
     "staticQueryHashes": ["3539500889","604461682"]}
