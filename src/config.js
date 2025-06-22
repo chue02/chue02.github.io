@@ -31,8 +31,8 @@ module.exports = {
       url: '/analytics',
     },
     {
-      name: 'Opinions',
-      url: '/opinions',
+      name: 'Blog',
+      url: '/blogs',
     },
     {
       name: 'Skills',

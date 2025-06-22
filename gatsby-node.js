@@ -16,7 +16,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/analytics|opinions/" } }
+        filter: { fileAbsolutePath: { regex: "/analytics|blogs/" } }
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
       ) {
@@ -56,7 +56,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Extract tag data from query
   const tags = result.data.tagsGroup.group;
   // Make tag pages
-  // TOOD: Find way to create path for opinion tags as well
+  // TOOD: Find way to create path for blog tags as well
   tags.forEach(tag => {
     createPage({
       path: `/analytics/tags/${_.kebabCase(tag.fieldValue)}/`,
